@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2020-07-01 07:59:00-0400
 inline: true
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Poster at Women in Machine Learning Workshop, ICML 2020. "Automated Identity Verification with Cross-Domain Image Comparisons". With Nöel Lüneburg and Rineke Verbrugge.

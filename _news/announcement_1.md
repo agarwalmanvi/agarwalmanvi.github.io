@@ -1,15 +1,15 @@
 ---
 layout: post
-title: I completed my Master's degree with a Cum Laude distinction! You can read more about my thesis in this post.
+title: I completed my Master's degree with a Cum Laude distinction!
 date: 2020-12-15 16:11:00-0400
 inline: false
 ---
 
 My thesis was titled: "Credit Assignment for Surrogate Gradient Learning Rules in Spiking Neural Networks".
 
-I was supervised by [Prof. dr. Lambert Schomaker](https://www.ai.rug.nl/~lambert/) and [Prof. dr. Tamalika Banerjee](https://www.rug.nl/staff/t.banerjee/cv?lang=en).
+***
 
-It was graded with a 9. You can find the abstract below.
+I was supervised by [Prof. dr. Lambert Schomaker](https://www.ai.rug.nl/~lambert/) and [Prof. dr. Tamalika Banerjee](https://www.rug.nl/staff/t.banerjee/cv?lang=en). The thesis was graded with a 9. You can find the abstract below.
 
 ***
 
