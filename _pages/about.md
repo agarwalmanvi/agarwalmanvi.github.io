@@ -6,11 +6,8 @@ description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: me.jpg
   address: >
-    <p>Office Number</p>
-    <p>Fancy Street Address</p>
-    <p>City, Country</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
