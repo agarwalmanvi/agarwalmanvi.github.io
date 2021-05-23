@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: <a href="https://www.sentinels.ai/">Sentinels</a>. Groningen, The Netherlands.
+description:
 
 profile:
   align: right
@@ -14,10 +14,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I work as a Machine Learning Engineer.
+I work as a Machine Learning Engineer at <a href="https://www.sentinels.ai/">Sentinels</a> in Groningen, The Netherlands.
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Long ago, I studied history. Besides travelling across disciplines, I have also travelled across continents. I grew up in Calcutta, but have experienced most of the big adulting events of my life so far in other places - Groningen, London, Paris. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I destress by baking and giving out those baked goods to my neighbours and friends. I like trying recipes from different cuisines and cultures. My favourite sport is swimming, but the pandemic has made it impossible to do that.
