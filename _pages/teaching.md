@@ -2,10 +2,11 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description:
 nav: true
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
-
-Organize your courses by years, topics, or universities, however you like!
+I was a Teaching Assistant for three courses at the department of Artificial Intelligence, Faculty of Science and Engineering, University of Groningen:
+1. [Introduction to Logic](https://www.rug.nl/ocasys/fwn/vak/show?code=WBAI012-05) \[2x\]
+2. [Advanced Logic](https://www.rug.nl/ocasys/fwn/vak/show?code=WBAI017-05)
+3. [Multi-Agent Systems](https://www.rug.nl/ocasys/fwn/vak/show?code=WMAI020-05) (now renamed to Logical Aspects of Multi-agent Systems)
