@@ -1,6 +1,6 @@
 ---
 layout: post
-title: I completed my Master's degree with a Cum Laude distinction!
+title: I completed my Master's degree with a Cum Laude distinction! 🎉
 date: 2020-12-15 16:11:00-0400
 inline: false
 ---
