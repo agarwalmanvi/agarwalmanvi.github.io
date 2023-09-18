@@ -11,13 +11,13 @@ _Structure-informed Positional Encoding for Music Generation_.
 
 # Contents
 
-1. [Generated Samples](#gen)
-   1. Next-timestep Prediction
-   2. Accompaniment Generation
-2. Dataset Supplement
-3. Training Details
+1. [Generated Samples](#generated-samples)
+   1. [Next-timestep Prediction](#next-timestep-prediction)
+   2. [Accompaniment Generation](#accompaniment-generation)
+2. [Dataset Supplement](#dataset-supplement)
+3. [Training Details](#training-details)
 
-<h1 id="gen">Generated Samples</h1>
+# Generated Samples
 
 Here are some generated samples:
 
