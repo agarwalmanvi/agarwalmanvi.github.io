@@ -11,13 +11,13 @@ _Structure-informed Positional Encoding for Music Generation_.
 
 # Contents
 
-1. [Generated Samples](#generated_samples)
+1. [Generated Samples](#gen)
    1. Next-timestep Prediction
    2. Accompaniment Generation
 2. Dataset Supplement
 3. Training Details
 
-# Generated Samples<a id='generated_samples'></a>
+<h1 id="gen">Generated Samples</h1>
 
 Here are some generated samples:
 
