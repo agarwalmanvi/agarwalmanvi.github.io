@@ -64,7 +64,7 @@ We only use the sinusoidal embedding with the `NS-*` variants because of constra
          </midi-player>
       </div>
       <div style="margin: 10px">
-         APE
+         <code>APE</code>
       </div>
       <div style="margin: 10px">
          <midi-player
@@ -94,7 +94,7 @@ We only use the sinusoidal embedding with the `NS-*` variants because of constra
       Prediction
       </div>
       <div style="margin: 10px">
-         L-SAPE
+         <code>L-SAPE</code>
       </div>
       <div style="margin: 10px">
          <midi-player
@@ -117,7 +117,7 @@ We only use the sinusoidal embedding with the `NS-*` variants because of constra
       <div style="margin: 10px;width: 225px;height: 100px;border: 1px dashed black">
       </div>
       <div style="margin: 10px">
-         S-SAPE
+         <code>S-SAPE</code>
       </div>
       <div style="margin: 10px">
          <midi-player
