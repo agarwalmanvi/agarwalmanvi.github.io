@@ -26,14 +26,14 @@ Below, we give some good and bad examples of both the baseline methods and our p
 
 ## Next-timestep Prediction
 
-<div style="display: grid;grid-template-columns: 1fr 1fr;grid-gap: 20px;border: 1px solid black;width: 100%">
-    <div style="margin: 10px;border: 1px solid red">Grid Column 1
+<div style="display: grid;grid-template-columns: 1fr 1fr;grid-gap: 20px;border: 1px solid black;width: 100%;place-items: center;">
+    <div style="margin: 10px;border: 1px solid red; width: 225px">
         <midi-player
           src="/assets/audio/structurepe/test.mid"
           sound-font visualizer="#myPianoRollVisualizer">
         </midi-player>
     </div>
-    <div style="margin: 10px;border: 1px solid red">Grid Column 2
+    <div style="margin: 10px;border: 1px solid red; width: 225px">
         <midi-player
           src="/assets/audio/structurepe/test.mid"
           sound-font visualizer="#myPianoRollVisualizer">
