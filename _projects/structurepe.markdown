@@ -26,22 +26,37 @@ Below, we give some good and bad examples of both the baseline methods and our p
 
 ## Next-timestep Prediction
 
-<div style="display: grid;grid-template-columns: 1fr 1fr;grid-gap: 20px;border: 1px solid black;width: 100%;place-items: center;">
-    <div style="margin: 10px;border: 1px solid red">
-        <midi-player
-          style="width: 225px"
-          src="/assets/audio/structurepe/test.mid"
-          sound-font visualizer="#myPianoRollVisualizer">
-        </midi-player>
-    </div>
-    <div style="margin: 10px;border: 1px solid red">
-        <midi-player
-          style="width: 225px"
-          src="/assets/audio/structurepe/test.mid"
-          sound-font visualizer="#myPianoRollVisualizer">
-        </midi-player>
-    </div>
-</div>
+<details>
+<summary><b>Good Examples</b></summary>
+   <details>
+   <summary>Baselines</summary>
+   
+   <div style="display: grid;grid-template-columns: 1fr 1fr;grid-gap: 20px;width: 100%;place-items: center;">
+      <div style="margin: 10px;width: 225px">
+         Name
+      </div>
+      <div style="margin: 10px">
+         <midi-player
+         style="width: 225px"
+         src="/assets/audio/structurepe/test.mid"
+         sound-font visualizer="#myPianoRollVisualizer">
+         </midi-player>
+      </div>
+      <div style="margin: 10px">
+         <midi-player
+         style="width: 225px"
+         src="/assets/audio/structurepe/test.mid"
+         sound-font visualizer="#myPianoRollVisualizer">
+         </midi-player>
+      </div>
+   </div>
+   
+   </details>
+</details>
+
+
+
+
 
 
 
