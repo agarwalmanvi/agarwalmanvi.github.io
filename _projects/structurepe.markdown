@@ -47,7 +47,7 @@ We only use the sinusoidal embedding with the `NS-*` variants because of constra
    <summary>Baselines</summary>
    <div style="display: grid;grid-template-columns: 100px 1fr 1fr;grid-gap: 5px;width: 100%;place-items: center">
       <div style="margin: 10px">
-         `NoPE`
+         <tt>NoPE</tt>
       </div>
       <div style="margin: 10px">
          <midi-player
@@ -64,7 +64,7 @@ We only use the sinusoidal embedding with the `NS-*` variants because of constra
          </midi-player>
       </div>
       <div style="margin: 10px">
-         `APE`
+         APE
       </div>
       <div style="margin: 10px">
          <midi-player
@@ -94,7 +94,7 @@ We only use the sinusoidal embedding with the `NS-*` variants because of constra
       Prediction
       </div>
       <div style="margin: 10px">
-         `L S-APE`
+         L-SAPE
       </div>
       <div style="margin: 10px">
          <midi-player
@@ -117,7 +117,7 @@ We only use the sinusoidal embedding with the `NS-*` variants because of constra
       <div style="margin: 10px;width: 225px;height: 100px;border: 1px dashed black">
       </div>
       <div style="margin: 10px">
-         `S S-APE`
+         S-SAPE
       </div>
       <div style="margin: 10px">
          <midi-player
