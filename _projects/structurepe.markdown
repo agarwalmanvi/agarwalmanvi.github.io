@@ -48,6 +48,23 @@ Below, we give some good and bad examples of both the baseline methods and our p
          sound-font visualizer="#myPianoRollVisualizer">
          </midi-player>
       </div>
+      <div style="margin: 10px">
+         APE
+      </div>
+      <div style="margin: 10px">
+         <midi-player
+         style="width: 225px"
+         src="/assets/audio/structurepe/test.mid"
+         sound-font visualizer="#myPianoRollVisualizer">
+         </midi-player>
+      </div>
+      <div style="margin: 10px">
+         <midi-player
+         style="width: 225px"
+         src="/assets/audio/structurepe/test.mid"
+         sound-font visualizer="#myPianoRollVisualizer">
+         </midi-player>
+      </div>
    </div>
    </details>
 </details>
