@@ -27,9 +27,9 @@ Below, we give some good and bad examples of both the baseline methods and our p
 ## Next-timestep Prediction
 
 <details>
-<summary><b>Good Examples</b></summary>
+<summary><h3>Good Examples</h3></summary>
    <details>
-   <summary>Baselines</summary>
+   <summary><h4>Baselines</h4></summary>
    
    <div style="display: grid;grid-template-columns: 1fr 1fr;grid-gap: 20px;width: 100%;place-items: center;">
       <div style="margin: 10px;width: 225px">
