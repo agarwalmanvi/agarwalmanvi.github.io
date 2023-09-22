@@ -6,6 +6,7 @@ img:
 importance: 1
 ---
 
+<script src="https://cdn.jsdelivr.net/combine/npm/tone@14.7.58,npm/@magenta/music@1.23.1/es6/core.js,npm/focus-visible@5,npm/html-midi-player@1.5.0"></script>
 This is the companion website to our ICASSP 2024 submission: 
 _Structure-informed Positional Encoding for Music Generation_.
 
@@ -22,6 +23,11 @@ _Structure-informed Positional Encoding for Music Generation_.
 Here are some generated samples:
 
 ## Next-timestep Prediction
+
+<midi-player
+  src="https://cdn.jsdelivr.net/gh/cifkao/html-midi-player@2b12128/twinkle_twinkle.mid"
+  sound-font visualizer="#myPianoRollVisualizer">
+</midi-player>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus condimentum ex sit amet neque dignissim, vel facilisis mauris bibendum. In sed tortor dolor. Donec vel augue dignissim, dictum quam at, finibus lorem. Nulla ac lacinia ex, vitae placerat neque. Sed vitae nisl fringilla, consequat odio et, euismod odio. Donec hendrerit urna ac augue accumsan, sit amet aliquam erat sodales. Phasellus at dictum mi. Nullam finibus, mauris sed lobortis rhoncus, lacus ligula rutrum mi, id dapibus ante quam at ipsum.
 
