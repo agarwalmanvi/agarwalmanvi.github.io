@@ -22,7 +22,22 @@ _Structure-informed Positional Encoding for Music Generation_.
 
 # Generated Samples
 
-Below, we give some good and bad examples of both the baseline methods and our proposed methods.
+Below, we give some good and bad examples of both the baseline methods and our proposed methods. The abbreviations are as follows:
+1. Baselines
+   1. NoPE: No Positional Encoding
+   2. APE: Absolute Positional Encoding
+   3. RPE: Relative Positional Encoding
+   4. S-APE/b: SymphonyNet
+   5. S-RPE/b: RIPO Attention
+2. Our Methods
+   1. L S-APE: StructureAPE with learnable embedding
+   2. S S-APE: StructureAPE with sinusoidal embedding
+   3. L S-RPE: StructureRPE with learnable embedding
+   4. S S-RPE: StructureRPE with sinusoidal embedding
+   5. NS-RPE/c: StructureRPE with nonstationary kernel on chord labels
+   6. NS-RPE/s: StructureRPE with nonstationary kernel on section labels
+
+We only use the sinusoidal embedding with the NS-* variants because of constraints on computational capacity.
 
 ## Next-timestep Prediction
 
