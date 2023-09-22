@@ -7,6 +7,8 @@ importance: 1
 ---
 
 <script src="https://cdn.jsdelivr.net/combine/npm/tone@14.7.58,npm/@magenta/music@1.23.1/es6/core.js,npm/focus-visible@5,npm/html-midi-player@1.5.0"></script>
+
+
 This is the companion website to our ICASSP 2024 submission: 
 _Structure-informed Positional Encoding for Music Generation_.
 
@@ -20,9 +22,15 @@ _Structure-informed Positional Encoding for Music Generation_.
 
 # Generated Samples
 
-Here are some generated samples:
+Below, we give some good and bad examples of both the baseline methods and our proposed methods.
 
 ## Next-timestep Prediction
+
+<div class="grid-container-element">
+    <div class="grid-child-element purple">Grid Column 1</div>
+    <div class="grid-child-element green">Grid Column 2</div>
+</div>
+
 
 <midi-player
   src="/assets/audio/structurepe/test.mid"
