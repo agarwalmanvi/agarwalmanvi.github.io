@@ -26,52 +26,49 @@ Below, we give some good and bad examples of both the baseline methods and our p
 
 ## Next-timestep Prediction
 
-<details style="margin-left: 20px; margin-top: 20px; border: 1px black">
+<details style="margin-left: 20px; margin-top: 20px; border: 1px black solid">
 
 <summary><b><font size="+1">Good Examples</font></b></summary>
 
-   <details style="margin-left: 10px; margin-top: 5px; border: 1px gray">
+   <details style="margin-left: 10px; margin-top: 5px; border: 1px gray solid">
 
    <summary>Baselines</summary>
    
-   <div style="display: grid;grid-template-columns: 100px 1fr 1fr;grid-gap: 5px;width: 100%;place-items: center;border: 1px blue">
-      
-      <div style="margin: 10px;border: 1px red">
+   <div style="display: grid;grid-template-columns: 100px 1fr 1fr;grid-gap: 5px;width: 100%;place-items: center;border: 1px blue solid">
+      <div style="margin: 10px;border: 1px red solid">
          Name
       </div>
-      <div style="margin: 10px;border: 1px red">
+      <div style="margin: 10px;border: 1px red solid">
          <midi-player
          style="width: 225px"
          src="/assets/audio/structurepe/test.mid"
          sound-font visualizer="#myPianoRollVisualizer">
          </midi-player>
       </div>
-      <div style="margin: 10px;border: 1px red">
+      <div style="margin: 10px;border: 1px red solid">
          <midi-player
          style="width: 225px"
          src="/assets/audio/structurepe/test.mid"
          sound-font visualizer="#myPianoRollVisualizer">
          </midi-player>
       </div>
-
-      <div style="margin: 10px;border: 1px red">
+      <div style="margin: 10px;border: 1px red solid">
          Name
       </div>
-      <div style="margin: 10px;border: 1px red">
+      <div style="margin: 10px;border: 1px red solid">
          <midi-player
          style="width: 225px"
          src="/assets/audio/structurepe/test.mid"
          sound-font visualizer="#myPianoRollVisualizer">
          </midi-player>
       </div>
-      <div style="margin: 10px;border: 1px red">
+      <div style="margin: 10px;border: 1px red solid">
          <midi-player
          style="width: 225px"
          src="/assets/audio/structurepe/test.mid"
          sound-font visualizer="#myPianoRollVisualizer">
          </midi-player>
       </div>
-
 
    </div>
    
