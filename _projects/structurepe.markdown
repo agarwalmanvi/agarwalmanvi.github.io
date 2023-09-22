@@ -87,6 +87,12 @@ Below, we give some good and bad examples of both the baseline methods and our p
          sound-font visualizer="#myPianoRollVisualizer">
          </midi-player>
       </div>
+      <div style="margin: 10px;height: 50px;border: 1px solid red">
+      </div>
+      <div style="margin: 10px;width: 225px;height: 50px;border: 1px solid red">
+      </div>
+      <div style="margin: 10px;width: 225px;height: 50px;border: 1px solid red">
+      </div>
       <div style="margin: 10px">
          S-SAPE
       </div>
