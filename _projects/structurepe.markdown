@@ -47,7 +47,7 @@ We only use the sinusoidal embedding with the `NS-*` variants because of constra
    <summary>Baselines</summary>
    <div style="display: grid;grid-template-columns: 100px 1fr 1fr;grid-gap: 5px;width: 100%;place-items: center">
       <div style="margin: 10px">
-         <tt>NoPE</tt>
+         <code>NoPE</code>
       </div>
       <div style="margin: 10px">
          <midi-player
