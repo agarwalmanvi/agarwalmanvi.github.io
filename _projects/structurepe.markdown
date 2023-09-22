@@ -26,9 +26,9 @@ Below, we give some good and bad examples of both the baseline methods and our p
 
 ## Next-timestep Prediction
 
-<div class="grid-container-element">
-    <div class="grid-child-element purple">Grid Column 1</div>
-    <div class="grid-child-element green">Grid Column 2</div>
+<div style="display: grid;grid-template-columns: 1fr 1fr;grid-gap: 20px;border: 1px solid black;width: 50%">
+    <div style="margin: 10px;border: 1px solid red">Grid Column 1</div>
+    <div style="margin: 10px;border: 1px solid red">Grid Column 2</div>
 </div>
 
 

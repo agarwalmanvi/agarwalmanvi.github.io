@@ -6,19 +6,6 @@
 // Dimensions
 $max-content-width: {{site.max_width}};
 
-.grid-container-element {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-    border: 1px solid black;
-    width: 50%;
-}
-.grid-child-element {
-    margin: 10px;
-    border: 1px solid red;
-}
-
-
 @import
   "variables",
   "themes",
