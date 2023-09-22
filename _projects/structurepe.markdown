@@ -72,10 +72,10 @@ Below, we give some good and bad examples of both the baseline methods and our p
    <div style="display: grid;grid-template-columns: 100px 1fr 1fr;grid-gap: 5px;width: 100%;place-items: center">
       <div style="margin: 10px">
       </div>
-      <div style="margin: 10px;width: 225px;height: 40px">
+      <div style="margin: 10px;width: 225px;height: 30px;text-align: center">
       Target
       </div>
-      <div style="margin: 10px;width: 225px;height: 40px">
+      <div style="margin: 10px;width: 225px;height: 30px;text-align: center">
       Prediction
       </div>
       <div style="margin: 10px">
