@@ -25,7 +25,7 @@ Here are some generated samples:
 ## Next-timestep Prediction
 
 <midi-player
-  src="https://cdn.jsdelivr.net/gh/cifkao/html-midi-player@2b12128/twinkle_twinkle.mid"
+  src="/assets/audio/structurepe/test.mid"
   sound-font visualizer="#myPianoRollVisualizer">
 </midi-player>
 
