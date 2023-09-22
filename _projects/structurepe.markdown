@@ -26,15 +26,16 @@ Below, we give some good and bad examples of both the baseline methods and our p
 
 ## Next-timestep Prediction
 
-<details>
+<details style="margin-left: 20px; margin-top: 20px">
 
 <summary><b><font size="+1">Good Examples</font></b></summary>
 
-   <details>
+   <details style="margin-left: 15px; margin-top: 5px">
 
    <summary>Baselines</summary>
    
-   <div style="display: grid;grid-template-columns: 1fr 1fr;grid-gap: 20px;width: 100%;place-items: center;">
+   <div style="display: grid;grid-template-columns: 1fr 1fr 1fr;grid-gap: 20px;width: 100%;place-items: center;grid-auto-rows: minmax(225px, auto);">
+      
       <div style="margin: 10px;width: 225px">
          Name
       </div>
@@ -52,6 +53,26 @@ Below, we give some good and bad examples of both the baseline methods and our p
          sound-font visualizer="#myPianoRollVisualizer">
          </midi-player>
       </div>
+
+      <div style="margin: 10px;width: 225px">
+         Name
+      </div>
+      <div style="margin: 10px">
+         <midi-player
+         style="width: 225px"
+         src="/assets/audio/structurepe/test.mid"
+         sound-font visualizer="#myPianoRollVisualizer">
+         </midi-player>
+      </div>
+      <div style="margin: 10px">
+         <midi-player
+         style="width: 225px"
+         src="/assets/audio/structurepe/test.mid"
+         sound-font visualizer="#myPianoRollVisualizer">
+         </midi-player>
+      </div>
+
+
    </div>
    
    </details>
