@@ -24,7 +24,7 @@ _Structure-informed Positional Encoding for Music Generation_.
 
 Below, we give some good and bad examples of both the baseline methods and our proposed methods. The abbreviations are as follows:
 1. Baselines
-   1. <span style="color:blue">`NoPE`</span>: No Positional Encoding
+   1. <span style="color:blue;font-family: monospace">NoPE</span>: No Positional Encoding
    2. `APE`: Absolute Positional Encoding
    3. `RPE`: Relative Positional Encoding
    4. `S-APE/b`: SymphonyNet
