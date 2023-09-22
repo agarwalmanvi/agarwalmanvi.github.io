@@ -34,9 +34,9 @@ Below, we give some good and bad examples of both the baseline methods and our p
 
    <summary>Baselines</summary>
    
-   <div style="display: grid;grid-template-columns: 1fr 1fr 1fr;grid-gap: 20px;width: 100%;place-items: center;grid-auto-columns: minmax(225px, auto);">
+   <div style="display: grid;grid-template-columns: 1fr 1fr 1fr;grid-gap: 20px;width: 100%;place-items: center;">
       
-      <div style="margin: 10px;width: 225px">
+      <div style="margin: 10px;width: 100px">
          Name
       </div>
       <div style="margin: 10px">
