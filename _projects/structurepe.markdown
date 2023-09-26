@@ -41,6 +41,73 @@ We only use the sinusoidal embedding with the `NS-*` variants because of constra
 
 ## Next-timestep Prediction
 
+### Good examples
+
+<details>
+   <summary><b>Baselines</b></summary>
+   <div style="display: grid;grid-template-columns: 100px 1fr 1fr;grid-gap: 5px;width: 100%;place-items: center">
+      <!-- HEADER -->
+      <div style="margin: 10px">
+      </div>
+      <div style="margin: 10px;width: 225px;height: 30px;text-align: center">
+      Target
+      </div>
+      <div style="margin: 10px;width: 225px;height: 30px;text-align: center">
+      Prediction
+      </div>
+      <!-- NoPE -->
+      <div style="margin: 10px">
+         <code>NoPE</code>
+      </div>
+      <div style="margin: 10px">
+         <midi-player
+         style="width: 225px"
+         src="/assets/audio/structurepe/test.mid"
+         sound-font visualizer="#myPianoRollVisualizer">
+         </midi-player>
+      </div>
+      <div style="margin: 10px">
+         <midi-player
+         style="width: 225px"
+         src="/assets/audio/structurepe/test.mid"
+         sound-font visualizer="#myPianoRollVisualizer">
+         </midi-player>
+      </div>
+      <div style="margin: 10px">
+      </div>
+      <div style="margin: 10px;width: 225px;height: 100px;border: 1px dashed black">
+      </div>
+      <div style="margin: 10px;width: 225px;height: 100px;border: 1px dashed black">
+      </div>
+      <!-- APE -->
+      <div style="margin: 10px">
+         <code>APE</code>
+      </div>
+      <div style="margin: 10px">
+         <midi-player
+         style="width: 225px"
+         src="/assets/audio/structurepe/test.mid"
+         sound-font visualizer="#myPianoRollVisualizer">
+         </midi-player>
+      </div>
+      <div style="margin: 10px">
+         <midi-player
+         style="width: 225px"
+         src="/assets/audio/structurepe/test.mid"
+         sound-font visualizer="#myPianoRollVisualizer">
+         </midi-player>
+      </div>
+      <div style="margin: 10px">
+      </div>
+      <div style="margin: 10px;width: 225px;height: 100px;border: 1px dashed black">
+      </div>
+      <div style="margin: 10px;width: 225px;height: 100px;border: 1px dashed black">
+      </div>
+   </div>
+</details>
+
+### Not-so-good examples
+<!--
 <details style="margin-left: 20px; margin-top: 20px; margin-bottom: 10px">
 <summary><b><font size="+1">Good Examples</font></b></summary>
    <details style="margin-left: 10px; margin-top: 5px">
@@ -142,7 +209,7 @@ We only use the sinusoidal embedding with the `NS-*` variants because of constra
    </div>
    </details>
 </details>
-
+-->
 ## Accompaniment Generation
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus condimentum ex sit amet neque dignissim, vel facilisis mauris bibendum. In sed tortor dolor. Donec vel augue dignissim, dictum quam at, finibus lorem. Nulla ac lacinia ex, vitae placerat neque. Sed vitae nisl fringilla, consequat odio et, euismod odio. Donec hendrerit urna ac augue accumsan, sit amet aliquam erat sodales. Phasellus at dictum mi. Nullam finibus, mauris sed lobortis rhoncus, lacus ligula rutrum mi, id dapibus ante quam at ipsum.
