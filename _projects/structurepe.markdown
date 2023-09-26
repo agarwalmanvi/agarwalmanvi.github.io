@@ -76,10 +76,10 @@ We only use the sinusoidal embedding with the `NS-*` variants because of constra
       <div style="margin: 10px">
       </div>
       <div style="margin: 10px">
-      <img src="/assets/projects/structurepe/next_ts/good/nope/1_tgt.png" style="width:128px;height:128px;">
+      <img src="/assets/projects/structurepe/next_ts/good/nope/1_tgt.png" style="width:175px;height:175px;">
       </div>
       <div style="margin: 10px">
-      <img src="/assets/projects/structurepe/next_ts/good/nope/1_pred.png" style="width:128px;height:128px;">
+      <img src="/assets/projects/structurepe/next_ts/good/nope/1_pred.png" style="width:175px;height:175px;">
       </div>
       <!-- APE -->
       <div style="margin: 10px">
@@ -88,22 +88,24 @@ We only use the sinusoidal embedding with the `NS-*` variants because of constra
       <div style="margin: 10px">
          <midi-player
          style="width: 225px"
-         src="/assets/audio/structurepe/test.mid"
+         src="/assets/projects/structurepe/next_ts/good/ape/1-tgt.mid"
          sound-font visualizer="#myPianoRollVisualizer">
          </midi-player>
       </div>
       <div style="margin: 10px">
          <midi-player
          style="width: 225px"
-         src="/assets/audio/structurepe/test.mid"
+         src="/assets/projects/structurepe/next_ts/good/ape/1-pred.mid"
          sound-font visualizer="#myPianoRollVisualizer">
          </midi-player>
       </div>
       <div style="margin: 10px">
       </div>
-      <div style="margin: 10px;width: 225px;height: 100px;border: 1px dashed black">
+      <div style="margin: 10px">
+      <img src="/assets/projects/structurepe/next_ts/good/ape/1_tgt.png" style="width:175px;height:175px;">
       </div>
-      <div style="margin: 10px;width: 225px;height: 100px;border: 1px dashed black">
+      <div style="margin: 10px">
+      <img src="/assets/projects/structurepe/next_ts/good/ape/1_pred.png" style="width:175px;height:175px;">
       </div>
    </div>
 </details>
