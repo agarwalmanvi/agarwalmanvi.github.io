@@ -43,7 +43,7 @@ We only use the sinusoidal embedding with the `NS-*` variants because of constra
 
 ### Good examples
 
-<details>
+<details style="margin-top: 15px; margin-bottom: 15px; margin-left: 5px">
    <summary><b>Baselines</b></summary>
    <div style="display: grid;grid-template-columns: 100px 1fr 1fr;grid-gap: 5px;width: 100%;place-items: center">
       <!-- HEADER -->
@@ -62,22 +62,24 @@ We only use the sinusoidal embedding with the `NS-*` variants because of constra
       <div style="margin: 10px">
          <midi-player
          style="width: 225px"
-         src="/assets/audio/structurepe/test.mid"
+         src="/assets/projects/structurepe/next_ts/good/nope/1-tgt.mid"
          sound-font visualizer="#myPianoRollVisualizer">
          </midi-player>
       </div>
       <div style="margin: 10px">
          <midi-player
          style="width: 225px"
-         src="/assets/audio/structurepe/test.mid"
+         src="/assets/projects/structurepe/next_ts/good/nope/1-pred.mid"
          sound-font visualizer="#myPianoRollVisualizer">
          </midi-player>
       </div>
       <div style="margin: 10px">
       </div>
-      <div style="margin: 10px;width: 225px;height: 100px;border: 1px dashed black">
+      <div style="margin: 10px">
+      <img src="/assets/projects/structurepe/next_ts/good/nope/1_tgt.png" style="width:128px;height:128px;">
       </div>
-      <div style="margin: 10px;width: 225px;height: 100px;border: 1px dashed black">
+      <div style="margin: 10px">
+      <img src="/assets/projects/structurepe/next_ts/good/nope/1_pred.png" style="width:128px;height:128px;">
       </div>
       <!-- APE -->
       <div style="margin: 10px">
