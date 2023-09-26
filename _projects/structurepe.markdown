@@ -703,8 +703,14 @@ We only use the sinusoidal embedding with the `NS-*` variants because of constra
       Prediction
       </div>
       <!-- NoPE -->
-      <div style="margin: 10px">
+      <div style="margin: 10px;text-align: center;height: 20px">
          <code>NoPE</code>
+      </div>
+      <div style="margin: 10px;text-align: center;height: 20px">
+      </div>
+      <div style="margin: 10px;text-align: center;height: 20px">
+      </div>
+      <div style="margin: 10px">
          <midi-player
          style="width: 200px"
          src="/assets/projects/structurepe/acc_gen/good/nope/1-melody_bridge.mid"
