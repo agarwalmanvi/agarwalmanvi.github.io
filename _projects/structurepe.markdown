@@ -688,6 +688,9 @@ We only use the sinusoidal embedding with the `NS-*` variants because of constra
 
 ## Accompaniment Generation
 
+Besides the target and the prediction, we provide the melody track to give a sense of what the music 
+sounds like _without_ the accompaniment track. You can find the melody track under the name of each method.  
+
 ### Good examples
 
 <details style="margin-top: 15px; margin-bottom: 15px; margin-left: 5px">
