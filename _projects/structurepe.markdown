@@ -114,24 +114,24 @@ We only use the sinusoidal embedding with the `NS-*` variants because of constra
       <div style="margin: 10px">
          <midi-player
          style="width: 225px"
-         src="/assets/projects/structurepe/next_ts/good/rpe/3-tgt.mid"
+         src="/assets/projects/structurepe/next_ts/good/rpe/0-tgt.mid"
          sound-font visualizer="#myPianoRollVisualizer">
          </midi-player>
       </div>
       <div style="margin: 10px">
          <midi-player
          style="width: 225px"
-         src="/assets/projects/structurepe/next_ts/good/rpe/3-pred.mid"
+         src="/assets/projects/structurepe/next_ts/good/rpe/0-pred.mid"
          sound-font visualizer="#myPianoRollVisualizer">
          </midi-player>
       </div>
       <div style="margin: 10px">
       </div>
       <div style="margin: 10px">
-      <img src="/assets/projects/structurepe/next_ts/good/rpe/3_tgt.png" style="width:175px;height:175px;">
+      <img src="/assets/projects/structurepe/next_ts/good/rpe/0_tgt.png" style="width:175px;height:175px;">
       </div>
       <div style="margin: 10px">
-      <img src="/assets/projects/structurepe/next_ts/good/rpe/3_pred.png" style="width:175px;height:175px;">
+      <img src="/assets/projects/structurepe/next_ts/good/rpe/0_pred.png" style="width:175px;height:175px;">
       </div>
       <!-- S-APE/b -->
       <div style="margin: 10px">
