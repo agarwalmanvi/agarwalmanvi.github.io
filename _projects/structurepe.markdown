@@ -692,45 +692,38 @@ We only use the sinusoidal embedding with the `NS-*` variants because of constra
 
 <details style="margin-top: 15px; margin-bottom: 15px; margin-left: 5px">
    <summary><b>Baselines</b></summary>
-   <div style="display: grid;grid-template-columns: 100px 100px 1fr 1fr;grid-gap: 5px;width: 100%;place-items: center">
+   <div style="display: grid;grid-template-columns: 200px 1fr 1fr;grid-gap: 5px;width: 100%;place-items: center">
       <!-- HEADER -->
       <div style="margin: 10px">
       </div>
-      <div style="margin: 10px;text-align: center">
-      Melody
-      </div>
-      <div style="margin: 10px;width: 225px;height: 30px;text-align: center">
+      <div style="margin: 10px;width: 225px;text-align: center">
       Target
       </div>
-      <div style="margin: 10px;width: 225px;height: 30px;text-align: center">
+      <div style="margin: 10px;width: 225px;text-align: center">
       Prediction
       </div>
       <!-- NoPE -->
       <div style="margin: 10px">
          <code>NoPE</code>
-      </div>
-      <div style="margin: 10px">
          <midi-player
-         style="width: 225px"
+         style="width: 200px"
          src="/assets/projects/structurepe/acc_gen/good/nope/1-melody_bridge.mid"
          sound-font visualizer="#myPianoRollVisualizer">
          </midi-player>
       </div>
       <div style="margin: 10px">
          <midi-player
-         style="width: 225px"
+         style="width: 200px"
          src="/assets/projects/structurepe/acc_gen/good/nope/1-tgt.mid"
          sound-font visualizer="#myPianoRollVisualizer">
          </midi-player>
       </div>
       <div style="margin: 10px">
          <midi-player
-         style="width: 225px"
+         style="width: 200px"
          src="/assets/projects/structurepe/acc_gen/good/nope/1-pred.mid"
          sound-font visualizer="#myPianoRollVisualizer">
          </midi-player>
-      </div>
-      <div style="margin: 10px">
       </div>
       <div style="margin: 10px">
       </div>
