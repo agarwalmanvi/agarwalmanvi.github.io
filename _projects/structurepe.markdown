@@ -688,17 +688,658 @@ We only use the sinusoidal embedding with the `NS-*` variants because of constra
 
 ## Accompaniment Generation
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus condimentum ex sit amet neque dignissim, vel facilisis mauris bibendum. In sed tortor dolor. Donec vel augue dignissim, dictum quam at, finibus lorem. Nulla ac lacinia ex, vitae placerat neque. Sed vitae nisl fringilla, consequat odio et, euismod odio. Donec hendrerit urna ac augue accumsan, sit amet aliquam erat sodales. Phasellus at dictum mi. Nullam finibus, mauris sed lobortis rhoncus, lacus ligula rutrum mi, id dapibus ante quam at ipsum.
+### Good examples
 
-Aliquam efficitur tincidunt tempor. Vestibulum faucibus est id velit accumsan blandit. Pellentesque porttitor laoreet cursus. Curabitur consectetur libero massa, in aliquam diam sodales quis. Fusce facilisis ac ex faucibus cursus. Maecenas ut leo quis leo fermentum imperdiet mattis in ante. Maecenas suscipit facilisis nisi sed semper. Vivamus porta tempus sapien nec accumsan. Aenean finibus sagittis libero eget auctor. Praesent luctus sagittis metus sed efficitur. Vivamus a tincidunt purus. Nulla tincidunt turpis leo, ac efficitur ipsum maximus a. Maecenas eget lobortis felis, eu tincidunt felis. Proin sed dolor varius, luctus libero sed, elementum dolor. Vivamus lorem nibh, finibus sed enim ac, convallis rhoncus nunc.
+<details style="margin-top: 15px; margin-bottom: 15px; margin-left: 5px">
+   <summary><b>Baselines</b></summary>
+   <div style="display: grid;grid-template-columns: 100px 100px 1fr 1fr;grid-gap: 5px;width: 100%;place-items: center">
+      <!-- HEADER -->
+      <div style="margin: 10px">
+      </div>
+      <div style="margin: 10px;text-align: center">
+      Melody
+      </div>
+      <div style="margin: 10px;width: 225px;height: 30px;text-align: center">
+      Target
+      </div>
+      <div style="margin: 10px;width: 225px;height: 30px;text-align: center">
+      Prediction
+      </div>
+      <!-- NoPE -->
+      <div style="margin: 10px">
+         <code>NoPE</code>
+      </div>
+      <div style="margin: 10px">
+         <midi-player
+         style="width: 225px"
+         src="/assets/projects/structurepe/acc_gen/good/nope/1-melody_bridge.mid"
+         sound-font visualizer="#myPianoRollVisualizer">
+         </midi-player>
+      </div>
+      <div style="margin: 10px">
+         <midi-player
+         style="width: 225px"
+         src="/assets/projects/structurepe/acc_gen/good/nope/1-tgt.mid"
+         sound-font visualizer="#myPianoRollVisualizer">
+         </midi-player>
+      </div>
+      <div style="margin: 10px">
+         <midi-player
+         style="width: 225px"
+         src="/assets/projects/structurepe/acc_gen/good/nope/1-pred.mid"
+         sound-font visualizer="#myPianoRollVisualizer">
+         </midi-player>
+      </div>
+      <div style="margin: 10px">
+      </div>
+      <div style="margin: 10px">
+      <img src="/assets/projects/structurepe/acc_gen/good/nope/1_tgt.png" style="width:175px;height:175px;">
+      </div>
+      <div style="margin: 10px">
+      <img src="/assets/projects/structurepe/acc_gen/good/nope/1_pred.png" style="width:175px;height:175px;">
+      </div>
+      <!--
+      <!-- APE -->
+      <div style="margin: 10px">
+         <code>APE</code>
+      </div>
+      <div style="margin: 10px">
+         <midi-player
+         style="width: 225px"
+         src="/assets/projects/structurepe/acc_gen/good/ape/1-tgt.mid"
+         sound-font visualizer="#myPianoRollVisualizer">
+         </midi-player>
+      </div>
+      <div style="margin: 10px">
+         <midi-player
+         style="width: 225px"
+         src="/assets/projects/structurepe/acc_gen/good/ape/1-pred.mid"
+         sound-font visualizer="#myPianoRollVisualizer">
+         </midi-player>
+      </div>
+      <div style="margin: 10px">
+      </div>
+      <div style="margin: 10px">
+      <img src="/assets/projects/structurepe/acc_gen/good/ape/1_tgt.png" style="width:175px;height:175px;">
+      </div>
+      <div style="margin: 10px">
+      <img src="/assets/projects/structurepe/acc_gen/good/ape/1_pred.png" style="width:175px;height:175px;">
+      </div>
+      <!-- RPE -->
+      <div style="margin: 10px">
+         <code>RPE</code>
+      </div>
+      <div style="margin: 10px">
+         <midi-player
+         style="width: 225px"
+         src="/assets/projects/structurepe/acc_gen/good/rpe/0-tgt.mid"
+         sound-font visualizer="#myPianoRollVisualizer">
+         </midi-player>
+      </div>
+      <div style="margin: 10px">
+         <midi-player
+         style="width: 225px"
+         src="/assets/projects/structurepe/acc_gen/good/rpe/0-pred.mid"
+         sound-font visualizer="#myPianoRollVisualizer">
+         </midi-player>
+      </div>
+      <div style="margin: 10px">
+      </div>
+      <div style="margin: 10px">
+      <img src="/assets/projects/structurepe/acc_gen/good/rpe/0_tgt.png" style="width:175px;height:175px;">
+      </div>
+      <div style="margin: 10px">
+      <img src="/assets/projects/structurepe/acc_gen/good/rpe/0_pred.png" style="width:175px;height:175px;">
+      </div>
+      <!-- S-APE/b -->
+      <div style="margin: 10px">
+         <code>S-APE/b</code>
+      </div>
+      <div style="margin: 10px">
+         <midi-player
+         style="width: 225px"
+         src="/assets/projects/structurepe/acc_gen/good/sape_b/12-tgt.mid"
+         sound-font visualizer="#myPianoRollVisualizer">
+         </midi-player>
+      </div>
+      <div style="margin: 10px">
+         <midi-player
+         style="width: 225px"
+         src="/assets/projects/structurepe/acc_gen/good/sape_b/12-pred.mid"
+         sound-font visualizer="#myPianoRollVisualizer">
+         </midi-player>
+      </div>
+      <div style="margin: 10px">
+      </div>
+      <div style="margin: 10px">
+      <img src="/assets/projects/structurepe/acc_gen/good/sape_b/12_tgt.png" style="width:175px;height:175px;">
+      </div>
+      <div style="margin: 10px">
+      <img src="/assets/projects/structurepe/acc_gen/good/sape_b/12_pred.png" style="width:175px;height:175px;">
+      </div>
+      <!-- S-RPE/b -->
+      <div style="margin: 10px">
+         <code>S-RPE/b</code>
+      </div>
+      <div style="margin: 10px">
+         <midi-player
+         style="width: 225px"
+         src="/assets/projects/structurepe/acc_gen/good/srpe_b/10-tgt.mid"
+         sound-font visualizer="#myPianoRollVisualizer">
+         </midi-player>
+      </div>
+      <div style="margin: 10px">
+         <midi-player
+         style="width: 225px"
+         src="/assets/projects/structurepe/acc_gen/good/srpe_b/10-pred.mid"
+         sound-font visualizer="#myPianoRollVisualizer">
+         </midi-player>
+      </div>
+      <div style="margin: 10px">
+      </div>
+      <div style="margin: 10px">
+      <img src="/assets/projects/structurepe/acc_gen/good/srpe_b/10_tgt.png" style="width:175px;height:175px;">
+      </div>
+      <div style="margin: 10px">
+      <img src="/assets/projects/structurepe/acc_gen/good/srpe_b/10_pred.png" style="width:175px;height:175px;">
+      </div>
+      -->
+   </div>
+</details>
 
-Ut imperdiet lacus ut magna scelerisque, eu euismod tortor porttitor. Donec vehicula viverra cursus. Pellentesque nisl neque, hendrerit nec condimentum quis, pretium non metus. Nam laoreet, orci non suscipit rhoncus, erat purus commodo urna, a laoreet nibh ipsum vitae nisi. Mauris scelerisque iaculis consequat. In elementum est vitae ex ornare porttitor. Sed turpis nulla, dignissim non dolor mollis, faucibus blandit sem. Praesent venenatis auctor tempor. Vestibulum quis placerat lectus, et vulputate ante. Praesent vitae pellentesque enim, vitae maximus nunc. Cras vitae nisl at sapien pretium dapibus ut vel justo. Ut posuere purus laoreet massa sodales, egestas molestie mi feugiat. Morbi nec libero dui. Sed eget lacus non metus blandit imperdiet a malesuada ligula. Vivamus volutpat, purus nec interdum auctor, ex elit bibendum diam, non tempor dui metus in felis.
 
-In hac habitasse platea dictumst. Sed diam metus, bibendum ut lacus at, egestas blandit est. Phasellus at lectus mauris. Donec at vulputate massa. Phasellus quis interdum enim. Mauris mauris ligula, dictum eu dapibus in, accumsan sed erat. Sed fringilla enim quis libero ultrices, ut tincidunt urna fermentum. Maecenas sodales, nunc quis dignissim vehicula, tellus arcu aliquet est, et dapibus metus tortor at eros. Maecenas blandit ante mauris, eget rhoncus nulla cursus at. Aliquam non egestas libero. Quisque efficitur tortor leo, quis iaculis metus dictum ut. Sed a urna ac tortor dictum congue nec ac nisi.
 
-Nunc semper tortor sit amet purus iaculis, id imperdiet erat cursus. Suspendisse vitae euismod felis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc porttitor in ipsum quis rutrum. Donec posuere nulla sed justo ornare placerat. Praesent orci risus, vestibulum id viverra non, pulvinar eu eros. Vivamus sed tortor placerat, consectetur purus a, faucibus ipsum. Nam eget aliquet mi. Proin vitae iaculis enim. Nunc suscipit commodo sapien eget fringilla.
+<!--
+<details style="margin-top: 15px; margin-bottom: 15px; margin-left: 5px">
+   <summary><b>Our Methods</b></summary>
+   <div style="display: grid;grid-template-columns: 100px 1fr 1fr;grid-gap: 5px;width: 100%;place-items: center">
+      <!-- HEADER -->
+      <div style="margin: 10px">
+      </div>
+      <div style="margin: 10px;width: 225px;height: 30px;text-align: center">
+      Target
+      </div>
+      <div style="margin: 10px;width: 225px;height: 30px;text-align: center">
+      Prediction
+      </div>
+      <!-- L S-APE -->
+      <div style="margin: 10px">
+         <code>L S-APE</code>
+      </div>
+      <div style="margin: 10px">
+         <midi-player
+         style="width: 225px"
+         src="/assets/projects/structurepe/acc_gen/good/sape/4-tgt.mid"
+         sound-font visualizer="#myPianoRollVisualizer">
+         </midi-player>
+      </div>
+      <div style="margin: 10px">
+         <midi-player
+         style="width: 225px"
+         src="/assets/projects/structurepe/acc_gen/good/sape/4-pred.mid"
+         sound-font visualizer="#myPianoRollVisualizer">
+         </midi-player>
+      </div>
+      <div style="margin: 10px">
+      </div>
+      <div style="margin: 10px">
+      <img src="/assets/projects/structurepe/acc_gen/good/sape/4_tgt.png" style="width:175px;height:175px;">
+      </div>
+      <div style="margin: 10px">
+      <img src="/assets/projects/structurepe/acc_gen/good/sape/4_pred.png" style="width:175px;height:175px;">
+      </div>
+      <!-- S S-APE -->
+      <div style="margin: 10px">
+         <code>S S-APE</code>
+      </div>
+      <div style="margin: 10px">
+         <midi-player
+         style="width: 225px"
+         src="/assets/projects/structurepe/acc_gen/good/ssape/20-tgt.mid"
+         sound-font visualizer="#myPianoRollVisualizer">
+         </midi-player>
+      </div>
+      <div style="margin: 10px">
+         <midi-player
+         style="width: 225px"
+         src="/assets/projects/structurepe/acc_gen/good/ssape/20-pred.mid"
+         sound-font visualizer="#myPianoRollVisualizer">
+         </midi-player>
+      </div>
+      <div style="margin: 10px">
+      </div>
+      <div style="margin: 10px">
+      <img src="/assets/projects/structurepe/acc_gen/good/ssape/20_tgt.png" style="width:175px;height:175px;">
+      </div>
+      <div style="margin: 10px">
+      <img src="/assets/projects/structurepe/acc_gen/good/ssape/20_pred.png" style="width:175px;height:175px;">
+      </div>
+      <!-- L S-RPE -->
+      <div style="margin: 10px">
+         <code>L S-RPE</code>
+      </div>
+      <div style="margin: 10px">
+         <midi-player
+         style="width: 225px"
+         src="/assets/projects/structurepe/acc_gen/good/srpe/11-tgt.mid"
+         sound-font visualizer="#myPianoRollVisualizer">
+         </midi-player>
+      </div>
+      <div style="margin: 10px">
+         <midi-player
+         style="width: 225px"
+         src="/assets/projects/structurepe/acc_gen/good/srpe/11-pred.mid"
+         sound-font visualizer="#myPianoRollVisualizer">
+         </midi-player>
+      </div>
+      <div style="margin: 10px">
+      </div>
+      <div style="margin: 10px">
+      <img src="/assets/projects/structurepe/acc_gen/good/srpe/11_tgt.png" style="width:175px;height:175px;">
+      </div>
+      <div style="margin: 10px">
+      <img src="/assets/projects/structurepe/acc_gen/good/srpe/11_pred.png" style="width:175px;height:175px;">
+      </div>
+      <!-- S S-RPE -->
+      <div style="margin: 10px">
+         <code>S S-RPE/b</code>
+      </div>
+      <div style="margin: 10px">
+         <midi-player
+         style="width: 225px"
+         src="/assets/projects/structurepe/acc_gen/good/ssrpe/24-tgt.mid"
+         sound-font visualizer="#myPianoRollVisualizer">
+         </midi-player>
+      </div>
+      <div style="margin: 10px">
+         <midi-player
+         style="width: 225px"
+         src="/assets/projects/structurepe/acc_gen/good/ssrpe/24-pred.mid"
+         sound-font visualizer="#myPianoRollVisualizer">
+         </midi-player>
+      </div>
+      <div style="margin: 10px">
+      </div>
+      <div style="margin: 10px">
+      <img src="/assets/projects/structurepe/acc_gen/good/ssrpe/24_tgt.png" style="width:175px;height:175px;">
+      </div>
+      <div style="margin: 10px">
+      <img src="/assets/projects/structurepe/acc_gen/good/ssrpe/24_pred.png" style="width:175px;height:175px;">
+      </div>
+      <!-- NS-RPE/c -->
+      <div style="margin: 10px">
+         <code>NS-RPE/c</code>
+      </div>
+      <div style="margin: 10px">
+         <midi-player
+         style="width: 225px"
+         src="/assets/projects/structurepe/acc_gen/good/nsrpe_c/10-tgt.mid"
+         sound-font visualizer="#myPianoRollVisualizer">
+         </midi-player>
+      </div>
+      <div style="margin: 10px">
+         <midi-player
+         style="width: 225px"
+         src="/assets/projects/structurepe/acc_gen/good/nsrpe_c/10-pred.mid"
+         sound-font visualizer="#myPianoRollVisualizer">
+         </midi-player>
+      </div>
+      <div style="margin: 10px">
+      </div>
+      <div style="margin: 10px">
+      <img src="/assets/projects/structurepe/acc_gen/good/nsrpe_c/10_tgt.png" style="width:175px;height:175px;">
+      </div>
+      <div style="margin: 10px">
+      <img src="/assets/projects/structurepe/acc_gen/good/nsrpe_c/10_pred.png" style="width:175px;height:175px;">
+      </div>
+      <!-- NS-RPE/s -->
+      <div style="margin: 10px">
+         <code>NS-RPE/s</code>
+      </div>
+      <div style="margin: 10px">
+         <midi-player
+         style="width: 225px"
+         src="/assets/projects/structurepe/acc_gen/good/nsrpe_s/5-tgt.mid"
+         sound-font visualizer="#myPianoRollVisualizer">
+         </midi-player>
+      </div>
+      <div style="margin: 10px">
+         <midi-player
+         style="width: 225px"
+         src="/assets/projects/structurepe/acc_gen/good/nsrpe_s/5-pred.mid"
+         sound-font visualizer="#myPianoRollVisualizer">
+         </midi-player>
+      </div>
+      <div style="margin: 10px">
+      </div>
+      <div style="margin: 10px">
+      <img src="/assets/projects/structurepe/acc_gen/good/nsrpe_s/5_tgt.png" style="width:175px;height:175px;">
+      </div>
+      <div style="margin: 10px">
+      <img src="/assets/projects/structurepe/acc_gen/good/nsrpe_s/5_pred.png" style="width:175px;height:175px;">
+      </div>
+   </div>
+</details>
+-->
 
-budmtss
+### Not-so-good examples
+
+<!--
+<details style="margin-top: 15px; margin-bottom: 15px; margin-left: 5px">
+   <summary><b>Baselines</b></summary>
+   <div style="display: grid;grid-template-columns: 100px 1fr 1fr;grid-gap: 5px;width: 100%;place-items: center">
+      <!-- HEADER -->
+      <div style="margin: 10px">
+      </div>
+      <div style="margin: 10px;width: 225px;height: 30px;text-align: center">
+      Target
+      </div>
+      <div style="margin: 10px;width: 225px;height: 30px;text-align: center">
+      Prediction
+      </div>
+      <!-- NoPE -->
+      <div style="margin: 10px">
+         <code>NoPE</code>
+      </div>
+      <div style="margin: 10px">
+         <midi-player
+         style="width: 225px"
+         src="/assets/projects/structurepe/acc_gen/less_good/nope/0-tgt.mid"
+         sound-font visualizer="#myPianoRollVisualizer">
+         </midi-player>
+      </div>
+      <div style="margin: 10px">
+         <midi-player
+         style="width: 225px"
+         src="/assets/projects/structurepe/acc_gen/less_good/nope/0-pred.mid"
+         sound-font visualizer="#myPianoRollVisualizer">
+         </midi-player>
+      </div>
+      <div style="margin: 10px">
+      </div>
+      <div style="margin: 10px">
+      <img src="/assets/projects/structurepe/acc_gen/less_good/nope/0_tgt.png" style="width:175px;height:175px;">
+      </div>
+      <div style="margin: 10px">
+      <img src="/assets/projects/structurepe/acc_gen/less_good/nope/0_pred.png" style="width:175px;height:175px;">
+      </div>
+      <!-- APE -->
+      <div style="margin: 10px">
+         <code>APE</code>
+      </div>
+      <div style="margin: 10px">
+         <midi-player
+         style="width: 225px"
+         src="/assets/projects/structurepe/acc_gen/less_good/ape/0-tgt.mid"
+         sound-font visualizer="#myPianoRollVisualizer">
+         </midi-player>
+      </div>
+      <div style="margin: 10px">
+         <midi-player
+         style="width: 225px"
+         src="/assets/projects/structurepe/acc_gen/less_good/ape/0-pred.mid"
+         sound-font visualizer="#myPianoRollVisualizer">
+         </midi-player>
+      </div>
+      <div style="margin: 10px">
+      </div>
+      <div style="margin: 10px">
+      <img src="/assets/projects/structurepe/acc_gen/less_good/ape/0_tgt.png" style="width:175px;height:175px;">
+      </div>
+      <div style="margin: 10px">
+      <img src="/assets/projects/structurepe/acc_gen/less_good/ape/0_pred.png" style="width:175px;height:175px;">
+      </div>
+      <!-- RPE -->
+      <div style="margin: 10px">
+         <code>RPE</code>
+      </div>
+      <div style="margin: 10px">
+         <midi-player
+         style="width: 225px"
+         src="/assets/projects/structurepe/acc_gen/less_good/rpe/0-tgt.mid"
+         sound-font visualizer="#myPianoRollVisualizer">
+         </midi-player>
+      </div>
+      <div style="margin: 10px">
+         <midi-player
+         style="width: 225px"
+         src="/assets/projects/structurepe/acc_gen/less_good/rpe/0-pred.mid"
+         sound-font visualizer="#myPianoRollVisualizer">
+         </midi-player>
+      </div>
+      <div style="margin: 10px">
+      </div>
+      <div style="margin: 10px">
+      <img src="/assets/projects/structurepe/acc_gen/less_good/rpe/0_tgt.png" style="width:175px;height:175px;">
+      </div>
+      <div style="margin: 10px">
+      <img src="/assets/projects/structurepe/acc_gen/less_good/rpe/0_pred.png" style="width:175px;height:175px;">
+      </div>
+      <!-- S-APE/b -->
+      <div style="margin: 10px">
+         <code>S-APE/b</code>
+      </div>
+      <div style="margin: 10px">
+         <midi-player
+         style="width: 225px"
+         src="/assets/projects/structurepe/acc_gen/less_good/sape_b/1-tgt.mid"
+         sound-font visualizer="#myPianoRollVisualizer">
+         </midi-player>
+      </div>
+      <div style="margin: 10px">
+         <midi-player
+         style="width: 225px"
+         src="/assets/projects/structurepe/acc_gen/less_good/sape_b/1-pred.mid"
+         sound-font visualizer="#myPianoRollVisualizer">
+         </midi-player>
+      </div>
+      <div style="margin: 10px">
+      </div>
+      <div style="margin: 10px">
+      <img src="/assets/projects/structurepe/acc_gen/less_good/sape_b/1_tgt.png" style="width:175px;height:175px;">
+      </div>
+      <div style="margin: 10px">
+      <img src="/assets/projects/structurepe/acc_gen/less_good/sape_b/1_pred.png" style="width:175px;height:175px;">
+      </div>
+      <!-- S-RPE/b -->
+      <div style="margin: 10px">
+         <code>S-RPE/b</code>
+      </div>
+      <div style="margin: 10px">
+         <midi-player
+         style="width: 225px"
+         src="/assets/projects/structurepe/acc_gen/less_good/srpe_b/1-tgt.mid"
+         sound-font visualizer="#myPianoRollVisualizer">
+         </midi-player>
+      </div>
+      <div style="margin: 10px">
+         <midi-player
+         style="width: 225px"
+         src="/assets/projects/structurepe/acc_gen/less_good/srpe_b/1-pred.mid"
+         sound-font visualizer="#myPianoRollVisualizer">
+         </midi-player>
+      </div>
+      <div style="margin: 10px">
+      </div>
+      <div style="margin: 10px">
+      <img src="/assets/projects/structurepe/acc_gen/less_good/srpe_b/1_tgt.png" style="width:175px;height:175px;">
+      </div>
+      <div style="margin: 10px">
+      <img src="/assets/projects/structurepe/acc_gen/less_good/srpe_b/1_pred.png" style="width:175px;height:175px;">
+      </div>
+   </div>
+</details>
+<details style="margin-top: 15px; margin-bottom: 15px; margin-left: 5px">
+   <summary><b>Our Methods</b></summary>
+   <div style="display: grid;grid-template-columns: 100px 1fr 1fr;grid-gap: 5px;width: 100%;place-items: center">
+      <!-- HEADER -->
+      <div style="margin: 10px">
+      </div>
+      <div style="margin: 10px;width: 225px;height: 30px;text-align: center">
+      Target
+      </div>
+      <div style="margin: 10px;width: 225px;height: 30px;text-align: center">
+      Prediction
+      </div>
+      <!-- L S-APE -->
+      <div style="margin: 10px">
+         <code>L S-APE</code>
+      </div>
+      <div style="margin: 10px">
+         <midi-player
+         style="width: 225px"
+         src="/assets/projects/structurepe/acc_gen/less_good/sape/0-tgt.mid"
+         sound-font visualizer="#myPianoRollVisualizer">
+         </midi-player>
+      </div>
+      <div style="margin: 10px">
+         <midi-player
+         style="width: 225px"
+         src="/assets/projects/structurepe/acc_gen/less_good/sape/0-pred.mid"
+         sound-font visualizer="#myPianoRollVisualizer">
+         </midi-player>
+      </div>
+      <div style="margin: 10px">
+      </div>
+      <div style="margin: 10px">
+      <img src="/assets/projects/structurepe/acc_gen/less_good/sape/0_tgt.png" style="width:175px;height:175px;">
+      </div>
+      <div style="margin: 10px">
+      <img src="/assets/projects/structurepe/acc_gen/less_good/sape/0_pred.png" style="width:175px;height:175px;">
+      </div>
+      <!-- S S-APE -->
+      <div style="margin: 10px">
+         <code>S S-APE</code>
+      </div>
+      <div style="margin: 10px">
+         <midi-player
+         style="width: 225px"
+         src="/assets/projects/structurepe/acc_gen/less_good/ssape/1-tgt.mid"
+         sound-font visualizer="#myPianoRollVisualizer">
+         </midi-player>
+      </div>
+      <div style="margin: 10px">
+         <midi-player
+         style="width: 225px"
+         src="/assets/projects/structurepe/acc_gen/less_good/ssape/1-pred.mid"
+         sound-font visualizer="#myPianoRollVisualizer">
+         </midi-player>
+      </div>
+      <div style="margin: 10px">
+      </div>
+      <div style="margin: 10px">
+      <img src="/assets/projects/structurepe/acc_gen/less_good/ssape/1_tgt.png" style="width:175px;height:175px;">
+      </div>
+      <div style="margin: 10px">
+      <img src="/assets/projects/structurepe/acc_gen/less_good/ssape/1_pred.png" style="width:175px;height:175px;">
+      </div>
+      <!-- L S-RPE -->
+      <div style="margin: 10px">
+         <code>L S-RPE</code>
+      </div>
+      <div style="margin: 10px">
+         <midi-player
+         style="width: 225px"
+         src="/assets/projects/structurepe/acc_gen/less_good/srpe/0-tgt.mid"
+         sound-font visualizer="#myPianoRollVisualizer">
+         </midi-player>
+      </div>
+      <div style="margin: 10px">
+         <midi-player
+         style="width: 225px"
+         src="/assets/projects/structurepe/acc_gen/less_good/srpe/0-pred.mid"
+         sound-font visualizer="#myPianoRollVisualizer">
+         </midi-player>
+      </div>
+      <div style="margin: 10px">
+      </div>
+      <div style="margin: 10px">
+      <img src="/assets/projects/structurepe/acc_gen/less_good/srpe/0_tgt.png" style="width:175px;height:175px;">
+      </div>
+      <div style="margin: 10px">
+      <img src="/assets/projects/structurepe/acc_gen/less_good/srpe/0_pred.png" style="width:175px;height:175px;">
+      </div>
+      <!-- S S-RPE -->
+      <div style="margin: 10px">
+         <code>S S-RPE/b</code>
+      </div>
+      <div style="margin: 10px">
+         <midi-player
+         style="width: 225px"
+         src="/assets/projects/structurepe/acc_gen/less_good/ssrpe/4-tgt.mid"
+         sound-font visualizer="#myPianoRollVisualizer">
+         </midi-player>
+      </div>
+      <div style="margin: 10px">
+         <midi-player
+         style="width: 225px"
+         src="/assets/projects/structurepe/acc_gen/less_good/ssrpe/4-pred.mid"
+         sound-font visualizer="#myPianoRollVisualizer">
+         </midi-player>
+      </div>
+      <div style="margin: 10px">
+      </div>
+      <div style="margin: 10px">
+      <img src="/assets/projects/structurepe/acc_gen/less_good/ssrpe/4_tgt.png" style="width:175px;height:175px;">
+      </div>
+      <div style="margin: 10px">
+      <img src="/assets/projects/structurepe/acc_gen/less_good/ssrpe/4_pred.png" style="width:175px;height:175px;">
+      </div>
+      <!-- NS-RPE/c -->
+      <div style="margin: 10px">
+         <code>NS-RPE/c</code>
+      </div>
+      <div style="margin: 10px">
+         <midi-player
+         style="width: 225px"
+         src="/assets/projects/structurepe/acc_gen/less_good/nsrpe_c/6-tgt.mid"
+         sound-font visualizer="#myPianoRollVisualizer">
+         </midi-player>
+      </div>
+      <div style="margin: 10px">
+         <midi-player
+         style="width: 225px"
+         src="/assets/projects/structurepe/acc_gen/less_good/nsrpe_c/6-pred.mid"
+         sound-font visualizer="#myPianoRollVisualizer">
+         </midi-player>
+      </div>
+      <div style="margin: 10px">
+      </div>
+      <div style="margin: 10px">
+      <img src="/assets/projects/structurepe/acc_gen/less_good/nsrpe_c/6_tgt.png" style="width:175px;height:175px;">
+      </div>
+      <div style="margin: 10px">
+      <img src="/assets/projects/structurepe/acc_gen/less_good/nsrpe_c/6_pred.png" style="width:175px;height:175px;">
+      </div>
+      <!-- NS-RPE/s -->
+      <div style="margin: 10px">
+         <code>NS-RPE/s</code>
+      </div>
+      <div style="margin: 10px">
+         <midi-player
+         style="width: 225px"
+         src="/assets/projects/structurepe/acc_gen/less_good/nsrpe_s/10-tgt.mid"
+         sound-font visualizer="#myPianoRollVisualizer">
+         </midi-player>
+      </div>
+      <div style="margin: 10px">
+         <midi-player
+         style="width: 225px"
+         src="/assets/projects/structurepe/acc_gen/less_good/nsrpe_s/10-pred.mid"
+         sound-font visualizer="#myPianoRollVisualizer">
+         </midi-player>
+      </div>
+      <div style="margin: 10px">
+      </div>
+      <div style="margin: 10px">
+      <img src="/assets/projects/structurepe/acc_gen/less_good/nsrpe_s/10_tgt.png" style="width:175px;height:175px;">
+      </div>
+      <div style="margin: 10px">
+      <img src="/assets/projects/structurepe/acc_gen/less_good/nsrpe_s/10_pred.png" style="width:175px;height:175px;">
+      </div>
+   </div>
+</details>
+-->
 
 # Dataset Supplement
 
