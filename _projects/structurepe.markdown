@@ -43,18 +43,16 @@ We only use the sinusoidal embedding with the `NS-*` variants because of constra
 
 [Good examples :link:](../spe/next_ts/good)
 
-### Good examples
-
-### Not-so-good examples
+[Not-So-Good examples :link:](../spe/next_ts/not_so_good)
 
 ## Accompaniment Generation
 
 Besides the target and the prediction, we provide the melody track to give a sense of what the music 
-sounds like _without_ the accompaniment track. You can find the melody track under the name of each method.  
+sounds like _without_ the accompaniment track. You can find the melody track under the name of each method.
 
-### Good examples
+[Good examples :link:](../spe/acc_gen/good)
 
-### Not-so-good examples
+[Not-So-Good examples :link:](../spe/acc_gen/not_so_good)
 
 # Dataset Supplement
 
