@@ -41,6 +41,8 @@ We only use the sinusoidal embedding with the `NS-*` variants because of constra
 
 ## Next-timestep Prediction
 
+[Good examples :link:](/_projects/spe/next_ts/good.markdown)
+
 ### Good examples
 
 ### Not-so-good examples
