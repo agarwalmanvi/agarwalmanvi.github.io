@@ -69,11 +69,11 @@ Below, I show the validation loss for a selection of baselines and proposed meth
 
 <div style="display:grid; grid-template-columns:1fr 1fr; grid-gap:5px; width:100%; place-items: center">
   <!-- HEADER -->
-  <div style="margin: 10px;min-width: 225px;height: 225px;">
-  <img src="/assets/projects/structurepe/figs/next_ts.png" alt="Next-timestep Prediction">
+  <div style="margin: 10px">
+  <img src="/assets/projects/structurepe/figs/next_ts.png" alt="Next-timestep Prediction" style="width: 300px">
   </div>
-  <div style="margin: 10px;min-width: 225px;height: 225px;">
-  <img src="/assets/projects/structurepe/figs/acc_gen.png" alt="Accompaniment Generation">
+  <div style="margin: 10px">
+  <img src="/assets/projects/structurepe/figs/acc_gen.png" alt="Accompaniment Generation" style="width: 300px">
   </div>
 </div>
 
