@@ -28,13 +28,8 @@ importance: 1
   </div>
   <audio controls src="/assets/projects/structurepe/next_ts/good/nope/1-tgt.wav" style="width:225px; margin:10px">
   </audio>
-  <div style="margin: 10px">
-     <midi-player
-     style="width: 225px"
-     src="/assets/projects/structurepe/next_ts/good/nope/1-pred.mid"
-     sound-font visualizer="#myPianoRollVisualizer">
-     </midi-player>
-  </div>
+  <audio controls src="/assets/projects/structurepe/next_ts/good/nope/1-pred.wav" style="width:225px; margin:10px">
+  </audio>
   <div style="margin: 10px">
   </div>
   <div style="margin: 10px">
@@ -47,20 +42,10 @@ importance: 1
   <div style="margin: 10px">
      <code>APE</code>
   </div>
-  <div style="margin: 10px">
-     <midi-player
-     style="width: 225px"
-     src="/assets/projects/structurepe/next_ts/good/ape/1-tgt.mid"
-     sound-font visualizer="#myPianoRollVisualizer">
-     </midi-player>
-  </div>
-  <div style="margin: 10px">
-     <midi-player
-     style="width: 225px"
-     src="/assets/projects/structurepe/next_ts/good/ape/1-pred.mid"
-     sound-font visualizer="#myPianoRollVisualizer">
-     </midi-player>
-  </div>
+  <audio controls src="/assets/projects/structurepe/next_ts/good/ape/1-tgt.wav" style="width:225px; margin:10px">
+  </audio>
+  <audio controls src="/assets/projects/structurepe/next_ts/good/ape/1-pred.wav" style="width:225px; margin:10px">
+  </audio>
   <div style="margin: 10px">
   </div>
   <div style="margin: 10px">
@@ -73,20 +58,10 @@ importance: 1
   <div style="margin: 10px">
      <code>RPE</code>
   </div>
-  <div style="margin: 10px">
-     <midi-player
-     style="width: 225px"
-     src="/assets/projects/structurepe/next_ts/good/rpe/0-tgt.mid"
-     sound-font visualizer="#myPianoRollVisualizer">
-     </midi-player>
-  </div>
-  <div style="margin: 10px">
-     <midi-player
-     style="width: 225px"
-     src="/assets/projects/structurepe/next_ts/good/rpe/0-pred.mid"
-     sound-font visualizer="#myPianoRollVisualizer">
-     </midi-player>
-  </div>
+  <audio controls src="/assets/projects/structurepe/next_ts/good/rpe/0-tgt.wav" style="width:225px; margin:10px">
+  </audio>
+  <audio controls src="/assets/projects/structurepe/next_ts/good/rpe/0-pred.wav" style="width:225px; margin:10px">
+  </audio>
   <div style="margin: 10px">
   </div>
   <div style="margin: 10px">
@@ -99,20 +74,10 @@ importance: 1
   <div style="margin: 10px">
      <code>S-APE/b</code>
   </div>
-  <div style="margin: 10px">
-     <midi-player
-     style="width: 225px"
-     src="/assets/projects/structurepe/next_ts/good/sape_b/12-tgt.mid"
-     sound-font visualizer="#myPianoRollVisualizer">
-     </midi-player>
-  </div>
-  <div style="margin: 10px">
-     <midi-player
-     style="width: 225px"
-     src="/assets/projects/structurepe/next_ts/good/sape_b/12-pred.mid"
-     sound-font visualizer="#myPianoRollVisualizer">
-     </midi-player>
-  </div>
+  <audio controls src="/assets/projects/structurepe/next_ts/good/sape_b/12-tgt.wav" style="width:225px; margin:10px">
+  </audio>
+  <audio controls src="/assets/projects/structurepe/next_ts/good/sape_b/12-pred.wav" style="width:225px; margin:10px">
+  </audio>
   <div style="margin: 10px">
   </div>
   <div style="margin: 10px">
@@ -125,20 +90,11 @@ importance: 1
   <div style="margin: 10px">
      <code>S-RPE/b</code>
   </div>
-  <div style="margin: 10px">
-     <midi-player
-     style="width: 225px"
-     src="/assets/projects/structurepe/next_ts/good/srpe_b/10-tgt.mid"
-     sound-font visualizer="#myPianoRollVisualizer">
-     </midi-player>
-  </div>
-  <div style="margin: 10px">
-     <midi-player
-     style="width: 225px"
-     src="/assets/projects/structurepe/next_ts/good/srpe_b/10-pred.mid"
-     sound-font visualizer="#myPianoRollVisualizer">
-     </midi-player>
-  </div>
+  <audio controls src="/assets/projects/structurepe/next_ts/good/srpe_b/10-tgt.wav" style="width:225px; margin:10px">
+  </audio>
+  <audio controls src="/assets/projects/structurepe/next_ts/good/srpe_b/10-pred.wav" style="width:225px; margin:10px">
+  </audio>
+  
   <div style="margin: 10px">
   </div>
   <div style="margin: 10px">
