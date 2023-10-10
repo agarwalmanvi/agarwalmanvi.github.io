@@ -8,6 +8,9 @@ importance: 1
 
 ## Good examples
 
+Besides the target and the prediction, we provide the melody track to give a sense of what the music 
+sounds like _without_ the accompaniment track. You can find the melody track under the name of each method.
+
 <br>
 
 ### Baselines
@@ -52,27 +55,12 @@ importance: 1
     </div>
     <div style="margin: 10px;text-align: center;height: 20px">
     </div>
-    <div style="margin: 10px">
-     <midi-player
-     style="width: 200px"
-     src="/assets/projects/structurepe/acc_gen/good/ape/6-melody_bridge.mid"
-     sound-font visualizer="#myPianoRollVisualizer">
-     </midi-player>
-    </div>
-    <div style="margin: 10px">
-     <midi-player
-     style="width: 200px"
-     src="/assets/projects/structurepe/acc_gen/good/ape/6-tgt.mid"
-     sound-font visualizer="#myPianoRollVisualizer">
-     </midi-player>
-    </div>
-    <div style="margin: 10px">
-     <midi-player
-     style="width: 200px"
-     src="/assets/projects/structurepe/acc_gen/good/ape/6-pred.mid"
-     sound-font visualizer="#myPianoRollVisualizer">
-     </midi-player>
-    </div>
+    <audio controls src="/assets/projects/structurepe/acc_gen/good/ape/6-melody_bridge.wav" style="width:200px; margin:10px">
+    </audio>
+    <audio controls src="/assets/projects/structurepe/acc_gen/good/ape/6-tgt.wav" style="width:200px; margin:10px">
+    </audio>
+    <audio controls src="/assets/projects/structurepe/acc_gen/good/ape/6-pred.wav" style="width:200px; margin:10px">
+    </audio>
     <div style="margin: 10px">
     </div>
     <div style="margin: 10px">
@@ -89,27 +77,12 @@ importance: 1
     </div>
     <div style="margin: 10px;text-align: center;height: 20px">
     </div>
-    <div style="margin: 10px">
-     <midi-player
-     style="width: 200px"
-     src="/assets/projects/structurepe/acc_gen/good/rpe/1-melody_bridge.mid"
-     sound-font visualizer="#myPianoRollVisualizer">
-     </midi-player>
-    </div>
-    <div style="margin: 10px">
-     <midi-player
-     style="width: 200px"
-     src="/assets/projects/structurepe/acc_gen/good/rpe/1-tgt.mid"
-     sound-font visualizer="#myPianoRollVisualizer">
-     </midi-player>
-    </div>
-    <div style="margin: 10px">
-     <midi-player
-     style="width: 200px"
-     src="/assets/projects/structurepe/acc_gen/good/rpe/1-pred.mid"
-     sound-font visualizer="#myPianoRollVisualizer">
-     </midi-player>
-    </div>
+    <audio controls src="/assets/projects/structurepe/acc_gen/good/rpe/1-melody_bridge.wav" style="width:200px; margin:10px">
+    </audio>
+    <audio controls src="/assets/projects/structurepe/acc_gen/good/rpe/1-tgt.wav" style="width:200px; margin:10px">
+    </audio>
+    <audio controls src="/assets/projects/structurepe/acc_gen/good/rpe/1-pred.wav" style="width:200px; margin:10px">
+    </audio>
     <div style="margin: 10px">
     </div>
     <div style="margin: 10px">
@@ -126,27 +99,12 @@ importance: 1
     </div>
     <div style="margin: 10px;text-align: center;height: 20px">
     </div>
-    <div style="margin: 10px">
-     <midi-player
-     style="width: 200px"
-     src="/assets/projects/structurepe/acc_gen/good/sape_b/13-melody_bridge.mid"
-     sound-font visualizer="#myPianoRollVisualizer">
-     </midi-player>
-    </div>
-    <div style="margin: 10px">
-     <midi-player
-     style="width: 200px"
-     src="/assets/projects/structurepe/acc_gen/good/sape_b/13-tgt.mid"
-     sound-font visualizer="#myPianoRollVisualizer">
-     </midi-player>
-    </div>
-    <div style="margin: 10px">
-     <midi-player
-     style="width: 200px"
-     src="/assets/projects/structurepe/acc_gen/good/sape_b/13-pred.mid"
-     sound-font visualizer="#myPianoRollVisualizer">
-     </midi-player>
-    </div>
+    <audio controls src="/assets/projects/structurepe/acc_gen/good/sape_b/13-melody_bridge.wav" style="width:200px; margin:10px">
+    </audio>
+    <audio controls src="/assets/projects/structurepe/acc_gen/good/sape_b/13-tgt.wav" style="width:200px; margin:10px">
+    </audio>
+    <audio controls src="/assets/projects/structurepe/acc_gen/good/sape_b/13-pred.wav" style="width:200px; margin:10px">
+    </audio>
     <div style="margin: 10px">
     </div>
     <div style="margin: 10px">
@@ -163,27 +121,12 @@ importance: 1
     </div>
     <div style="margin: 10px;text-align: center;height: 20px">
     </div>
-    <div style="margin: 10px">
-     <midi-player
-     style="width: 200px"
-     src="/assets/projects/structurepe/acc_gen/good/srpe_b/5-melody_bridge.mid"
-     sound-font visualizer="#myPianoRollVisualizer">
-     </midi-player>
-    </div>
-    <div style="margin: 10px">
-     <midi-player
-     style="width: 200px"
-     src="/assets/projects/structurepe/acc_gen/good/srpe_b/5-tgt.mid"
-     sound-font visualizer="#myPianoRollVisualizer">
-     </midi-player>
-    </div>
-    <div style="margin: 10px">
-     <midi-player
-     style="width: 200px"
-     src="/assets/projects/structurepe/acc_gen/good/srpe_b/5-pred.mid"
-     sound-font visualizer="#myPianoRollVisualizer">
-     </midi-player>
-    </div>
+    <audio controls src="/assets/projects/structurepe/acc_gen/good/srpe_b/5-melody_bridge.wav" style="width:200px; margin:10px">
+    </audio>
+    <audio controls src="/assets/projects/structurepe/acc_gen/good/srpe_b/5-tgt.wav" style="width:200px; margin:10px">
+    </audio>
+    <audio controls src="/assets/projects/structurepe/acc_gen/good/srpe_b/5-pred.wav" style="width:200px; margin:10px">
+    </audio>
     <div style="margin: 10px">
     </div>
     <div style="margin: 10px">
