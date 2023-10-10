@@ -67,7 +67,15 @@ Although the first source of error is trivial to eliminate, the second cannot be
 Hence, I manually select the beat position at which the structural annotations should start for each song.
 Below, I show the validation loss for a selection of baselines and proposed methods, using 20% of the dataset.
 
-Insert a plot here.
+<div style="display:grid; grid-template-columns:1fr 1fr; grid-gap:5px; width:100%; place-items: center">
+  <!-- HEADER -->
+  <div style="margin: 10px;min-width: 225px;height: 225px;">
+  <img src="/assets/projects/structurepe/figs/next_ts.png" alt="Next-timestep Prediction">
+  </div>
+  <div style="margin: 10px;min-width: 225px;height: 225px;">
+  <img src="/assets/projects/structurepe/figs/acc_gen.png" alt="Accompaniment Generation">
+  </div>
+</div>
 
 # Training Details
 
