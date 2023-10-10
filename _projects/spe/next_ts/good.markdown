@@ -26,13 +26,8 @@ importance: 1
   <div style="margin: 10px">
      <code>NoPE</code>
   </div>
-  <div style="margin: 10px">
-     <midi-player
-     style="width: 225px"
-     src="/assets/projects/structurepe/next_ts/good/nope/1-tgt.mid"
-     sound-font visualizer="#myPianoRollVisualizer">
-     </midi-player>
-  </div>
+  <audio controls src="/assets/projects/structurepe/next_ts/good/nope/1-tgt.wav" style="width:225px; margin:10px">
+  </audio>
   <div style="margin: 10px">
      <midi-player
      style="width: 225px"
