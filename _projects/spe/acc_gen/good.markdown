@@ -17,7 +17,8 @@ sounds like _without_ the accompaniment track. You can find the melody track und
 
 <div style="display: grid;grid-template-columns: 200px 1fr 1fr;grid-gap: 5px;width: 100%;place-items: center">
     <!-- HEADER -->
-    <div style="margin: 10px">
+    <div style="margin: 10px;width: 200px;text-align: center">
+    Melody
     </div>
     <div style="margin: 10px;width: 200px;text-align: center">
     Target
@@ -141,7 +142,8 @@ sounds like _without_ the accompaniment track. You can find the melody track und
 
 <div style="display: grid;grid-template-columns: 200px 1fr 1fr;grid-gap: 5px;width: 100%;place-items: center">
     <!-- HEADER -->
-    <div style="margin: 10px">
+    <div style="margin: 10px;width: 200px;text-align: center">
+    Melody
     </div>
     <div style="margin: 10px;width: 200px;text-align: center">
     Target
