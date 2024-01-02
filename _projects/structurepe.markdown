@@ -9,8 +9,14 @@ importance: 1
 <script src="https://cdn.jsdelivr.net/combine/npm/tone@14.7.58,npm/@magenta/music@1.23.1/es6/core.js,npm/focus-visible@5,npm/html-midi-player@1.5.0"></script>
 
 
-This is the companion website to our ICASSP 2024 submission: 
+This is the companion website to our ICASSP 2024 paper: 
 _Structure-informed Positional Encoding for Music Generation_.
+
+💻 GitHub repository: [link](https://github.com/agarwalmanvi/agarwalmanvi.github.io)<br>
+💾 Dataset: [link](https://github.com/agarwalmanvi/agarwalmanvi.github.io)<br>
+📔 Paper: [arXiV](https://github.com/agarwalmanvi/agarwalmanvi.github.io)
+[HAL](https://github.com/agarwalmanvi/agarwalmanvi.github.io)
+[IEEE](https://github.com/agarwalmanvi/agarwalmanvi.github.io)
 
 # Contents
 
