@@ -14,8 +14,8 @@ _Structure-informed Positional Encoding for Music Generation_.
 
 ___
 
-💻 GitHub repository: [link](https://github.com/agarwalmanvi/agarwalmanvi.github.io)<br>
-💾 Dataset: [link](https://github.com/agarwalmanvi/agarwalmanvi.github.io)<br>
+💻 Code: [GitHub](https://github.com/agarwalmanvi/agarwalmanvi.github.io)<br>
+💾 Dataset: [Zenodo](https://github.com/agarwalmanvi/agarwalmanvi.github.io)<br>
 📔 Paper: [arXiV](https://github.com/agarwalmanvi/agarwalmanvi.github.io)
 [HAL](https://github.com/agarwalmanvi/agarwalmanvi.github.io)
 [IEEE](https://github.com/agarwalmanvi/agarwalmanvi.github.io)
