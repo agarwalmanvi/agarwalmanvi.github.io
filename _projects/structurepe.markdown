@@ -23,7 +23,7 @@ _Structure-informed Positional Encoding for Music Generation_.
 1. [Training Details](#training-details)
 2. [Dataset Supplement](#dataset-supplement)
 3. [Generated Samples](#generated-samples)
-   1. [Next-timestep Prediction](#next-timestep-prediction)
+   1. [Next-timestep Prediction](#next-timestep-prediction): Good examples (<a href="#nexttsgoodbaselines">Baselines</a>, <a href="#nexttsgoodours">Our Methods</a>), Bad examples (<a href="#nexttsbadbaselines">Baselines</a>, <a href="#nexttsbadours">Our Methods</a>)
    2. [Accompaniment Generation](#accompaniment-generation)
 
 
@@ -101,7 +101,8 @@ We only use the sinusoidal embedding with the `NS-*` variants because of constra
 
 ## Next-timestep Prediction
 ### Good Examples
-#### Baselines
+
+<h4 id="nexttsgoodbaselines">Baselines</h4>
 
 <div style="display:grid; grid-template-columns:100px 1fr 1fr; grid-gap:5px; width:100%; place-items: center">
   <!-- HEADER -->
@@ -195,7 +196,7 @@ We only use the sinusoidal embedding with the `NS-*` variants because of constra
   </div>
 </div>
 
-#### Our Methods
+<h4 id="nexttsgoodours">Our Methods</h4>
 
 <div style="display: grid;grid-template-columns: 100px 1fr 1fr;grid-gap: 5px;width: 100%;place-items: center">
   <!-- HEADER -->
@@ -306,7 +307,8 @@ We only use the sinusoidal embedding with the `NS-*` variants because of constra
 </div>
 
 ### Bad Examples
-#### Baselines
+
+<h4 id="nexttsbadbaselines">Baselines</h4>
 
 <div style="display:grid; grid-template-columns:100px 1fr 1fr; grid-gap:5px; width:100%; place-items: center">
   <!-- HEADER -->
@@ -400,7 +402,7 @@ We only use the sinusoidal embedding with the `NS-*` variants because of constra
   </div>
 </div>
 
-#### Our Methods
+<h4 id="nexttsbadours">Our Methods</h4>
 
 <div style="display: grid;grid-template-columns: 100px 1fr 1fr;grid-gap: 5px;width: 100%;place-items: center">
   <!-- HEADER -->
