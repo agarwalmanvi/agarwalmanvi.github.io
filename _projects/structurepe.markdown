@@ -12,19 +12,23 @@ importance: 1
 This is the companion website to our ICASSP 2024 paper: 
 _Structure-informed Positional Encoding for Music Generation_.
 
+___
+
 💻 GitHub repository: [link](https://github.com/agarwalmanvi/agarwalmanvi.github.io)<br>
 💾 Dataset: [link](https://github.com/agarwalmanvi/agarwalmanvi.github.io)<br>
 📔 Paper: [arXiV](https://github.com/agarwalmanvi/agarwalmanvi.github.io)
 [HAL](https://github.com/agarwalmanvi/agarwalmanvi.github.io)
 [IEEE](https://github.com/agarwalmanvi/agarwalmanvi.github.io)
 
+___
+
 # Contents
 
 1. [Training Details](#training-details)
 2. [Dataset Supplement](#dataset-supplement)
 3. [Generated Samples](#generated-samples)
-   1. [Next-timestep Prediction](#next-timestep-prediction): Good examples (<a href="#nexttsgoodbaselines">Baselines</a>, <a href="#nexttsgoodours">Our Methods</a>), Bad examples (<a href="#nexttsbadbaselines">Baselines</a>, <a href="#nexttsbadours">Our Methods</a>)
-   2. [Accompaniment Generation](#accompaniment-generation)
+   1. [Next-timestep Prediction](#next-timestep-prediction): jump to good examples (<a href="#nexttsgoodbaselines">Baselines</a>, <a href="#nexttsgoodours">Our Methods</a>) and bad examples (<a href="#nexttsbadbaselines">Baselines</a>, <a href="#nexttsbadours">Our Methods</a>)
+   2. [Accompaniment Generation](#accompaniment-generation): jump to good examples (<a href="#accgoodbaselines">Baselines</a>, <a href="#accgoodours">Our Methods</a>) and bad examples (<a href="#accbadbaselines">Baselines</a>, <a href="#accbadours">Our Methods</a>)
 
 
 <br><br>
@@ -513,8 +517,13 @@ We only use the sinusoidal embedding with the `NS-*` variants because of constra
 </div>
 
 ## Accompaniment Generation
+
+Besides the target and the prediction, we provide the melody track to give a sense of what the music 
+sounds like _without_ the accompaniment track. You can find the melody track under the name of each method.
+
 ### Good Examples
-#### Baselines
+
+<h4 id="accgoodbaselines">Baselines</h4>
 
 <div style="display: grid;grid-template-columns: 200px 1fr 1fr;grid-gap: 5px;width: 100%;place-items: center">
     <!-- HEADER -->
@@ -639,7 +648,7 @@ We only use the sinusoidal embedding with the `NS-*` variants because of constra
     </div>
 </div>
 
-#### Our Methods
+<h4 id="accgoodours">Our Methods</h4>
 
 <div style="display: grid;grid-template-columns: 200px 1fr 1fr;grid-gap: 5px;width: 100%;place-items: center">
     <!-- HEADER -->
@@ -787,7 +796,8 @@ We only use the sinusoidal embedding with the `NS-*` variants because of constra
 </div>
 
 ### Bad Examples
-#### Baselines
+
+<h4 id="accbadbaselines">Baselines</h4>
 
 <div style="display: grid;grid-template-columns: 200px 1fr 1fr;grid-gap: 5px;width: 100%;place-items: center">
     <!-- HEADER -->
@@ -912,7 +922,7 @@ We only use the sinusoidal embedding with the `NS-*` variants because of constra
     </div>
 </div>
 
-#### Our Methods
+<h4 id="accbadours">Our Methods</h4>
 
 <div style="display: grid;grid-template-columns: 200px 1fr 1fr;grid-gap: 5px;width: 100%;place-items: center">
     <!-- HEADER -->
