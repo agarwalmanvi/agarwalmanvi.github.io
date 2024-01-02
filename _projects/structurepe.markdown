@@ -26,6 +26,8 @@ _Structure-informed Positional Encoding for Music Generation_.
 2. [Dataset Supplement](#dataset-supplement)
 3. [Training Details](#training-details)
 
+<br><br>
+
 # Generated Samples
 
 Below, we give some good and bad examples of both the baseline methods and our proposed methods. The abbreviations are as follows:
@@ -46,9 +48,7 @@ Below, we give some good and bad examples of both the baseline methods and our p
 We only use the sinusoidal embedding with the `NS-*` variants because of constraints on computational capacity.
 
 ## Next-timestep Prediction
-
 ### Good Examples
-
 #### Baselines
 
 <div style="display:grid; grid-template-columns:100px 1fr 1fr; grid-gap:5px; width:100%; place-items: center">
@@ -143,9 +143,7 @@ We only use the sinusoidal embedding with the `NS-*` variants because of constra
   </div>
 </div>
 
-
-### Our Methods
-
+#### Our Methods
 
 <div style="display: grid;grid-template-columns: 100px 1fr 1fr;grid-gap: 5px;width: 100%;place-items: center">
   <!-- HEADER -->
@@ -255,35 +253,759 @@ We only use the sinusoidal embedding with the `NS-*` variants because of constra
   </div>
 </div>
 
-#### Our Methods
-
 ### Bad Examples
-
 #### Baselines
 
+<div style="display:grid; grid-template-columns:100px 1fr 1fr; grid-gap:5px; width:100%; place-items: center">
+  <!-- HEADER -->
+  <div style="margin: 10px">
+  </div>
+  <div style="margin: 10px;width: 225px;height: 30px;text-align: center">
+  Target
+  </div>
+  <div style="margin: 10px;width: 225px;height: 30px;text-align: center">
+  Prediction
+  </div>
+  <!-- NoPE -->
+  <div style="margin: 10px">
+     <code>NoPE</code>
+  </div>
+  <audio controls src="/assets/projects/structurepe/next_ts/less_good/nope/0-tgt.wav" style="width:225px; margin:10px">
+  </audio>
+  <audio controls src="/assets/projects/structurepe/next_ts/less_good/nope/0-pred.wav" style="width:225px; margin:10px">
+  </audio>
+  <div style="margin: 10px">
+  </div>
+  <div style="margin: 10px">
+  <img src="/assets/projects/structurepe/next_ts/less_good/nope/0_tgt.png" style="width:175px;height:175px;">
+  </div>
+  <div style="margin: 10px">
+  <img src="/assets/projects/structurepe/next_ts/less_good/nope/0_pred.png" style="width:175px;height:175px;">
+  </div>
+  <!-- APE -->
+  <div style="margin: 10px">
+     <code>APE</code>
+  </div>
+  <audio controls src="/assets/projects/structurepe/next_ts/less_good/ape/0-tgt.wav" style="width:225px; margin:10px">
+  </audio>
+  <audio controls src="/assets/projects/structurepe/next_ts/less_good/ape/0-pred.wav" style="width:225px; margin:10px">
+  </audio>
+  <div style="margin: 10px">
+  </div>
+  <div style="margin: 10px">
+  <img src="/assets/projects/structurepe/next_ts/less_good/ape/0_tgt.png" style="width:175px;height:175px;">
+  </div>
+  <div style="margin: 10px">
+  <img src="/assets/projects/structurepe/next_ts/less_good/ape/0_pred.png" style="width:175px;height:175px;">
+  </div>
+  <!-- RPE -->
+  <div style="margin: 10px">
+     <code>RPE</code>
+  </div>
+  <audio controls src="/assets/projects/structurepe/next_ts/less_good/rpe/0-tgt.wav" style="width:225px; margin:10px">
+  </audio>
+  <audio controls src="/assets/projects/structurepe/next_ts/less_good/rpe/0-pred.wav" style="width:225px; margin:10px">
+  </audio>
+  <div style="margin: 10px">
+  </div>
+  <div style="margin: 10px">
+  <img src="/assets/projects/structurepe/next_ts/less_good/rpe/0_tgt.png" style="width:175px;height:175px;">
+  </div>
+  <div style="margin: 10px">
+  <img src="/assets/projects/structurepe/next_ts/less_good/rpe/0_pred.png" style="width:175px;height:175px;">
+  </div>
+  <!-- S-APE/b -->
+  <div style="margin: 10px">
+     <code>S-APE/b</code>
+  </div>
+  <audio controls src="/assets/projects/structurepe/next_ts/less_good/sape_b/1-tgt.wav" style="width:225px; margin:10px">
+  </audio>
+  <audio controls src="/assets/projects/structurepe/next_ts/less_good/sape_b/1-pred.wav" style="width:225px; margin:10px">
+  </audio>
+  <div style="margin: 10px">
+  </div>
+  <div style="margin: 10px">
+  <img src="/assets/projects/structurepe/next_ts/less_good/sape_b/1_tgt.png" style="width:175px;height:175px;">
+  </div>
+  <div style="margin: 10px">
+  <img src="/assets/projects/structurepe/next_ts/less_good/sape_b/1_pred.png" style="width:175px;height:175px;">
+  </div>
+  <!-- S-RPE/b -->
+  <div style="margin: 10px">
+     <code>S-RPE/b</code>
+  </div>
+  <audio controls src="/assets/projects/structurepe/next_ts/less_good/srpe_b/1-tgt.wav" style="width:225px; margin:10px">
+  </audio>
+  <audio controls src="/assets/projects/structurepe/next_ts/less_good/srpe_b/1-pred.wav" style="width:225px; margin:10px">
+  </audio>
+  <div style="margin: 10px">
+  </div>
+  <div style="margin: 10px">
+  <img src="/assets/projects/structurepe/next_ts/less_good/srpe_b/1_tgt.png" style="width:175px;height:175px;">
+  </div>
+  <div style="margin: 10px">
+  <img src="/assets/projects/structurepe/next_ts/less_good/srpe_b/1_pred.png" style="width:175px;height:175px;">
+  </div>
+</div>
+
 #### Our Methods
 
-[Good examples :link:](../spe/next_ts/good)
-
-[Not-So-Good examples :link:](../spe/next_ts/not_so_good)
+<div style="display: grid;grid-template-columns: 100px 1fr 1fr;grid-gap: 5px;width: 100%;place-items: center">
+  <!-- HEADER -->
+  <div style="margin: 10px">
+  </div>
+  <div style="margin: 10px;width: 225px;height: 30px;text-align: center">
+  Target
+  </div>
+  <div style="margin: 10px;width: 225px;height: 30px;text-align: center">
+  Prediction
+  </div>
+  <!-- L S-APE -->
+  <div style="margin: 10px">
+     <code>L S-APE</code>
+  </div>
+  <audio controls src="/assets/projects/structurepe/next_ts/less_good/sape/0-tgt.wav" style="width:225px; margin:10px">
+  </audio>
+  <audio controls src="/assets/projects/structurepe/next_ts/less_good/sape/0-pred.wav" style="width:225px; margin:10px">
+  </audio>
+  <div style="margin: 10px">
+  </div>
+  <div style="margin: 10px">
+  <img src="/assets/projects/structurepe/next_ts/less_good/sape/0_tgt.png" style="width:175px;height:175px;">
+  </div>
+  <div style="margin: 10px">
+  <img src="/assets/projects/structurepe/next_ts/less_good/sape/0_pred.png" style="width:175px;height:175px;">
+  </div>
+  <!-- S S-APE -->
+  <div style="margin: 10px">
+     <code>S S-APE</code>
+  </div>
+  <audio controls src="/assets/projects/structurepe/next_ts/less_good/ssape/1-tgt.wav" style="width:225px; margin:10px">
+  </audio>
+  <audio controls src="/assets/projects/structurepe/next_ts/less_good/ssape/1-pred.wav" style="width:225px; margin:10px">
+  </audio>
+  <div style="margin: 10px">
+  </div>
+  <div style="margin: 10px">
+  <img src="/assets/projects/structurepe/next_ts/less_good/ssape/1_tgt.png" style="width:175px;height:175px;">
+  </div>
+  <div style="margin: 10px">
+  <img src="/assets/projects/structurepe/next_ts/less_good/ssape/1_pred.png" style="width:175px;height:175px;">
+  </div>
+  <!-- L S-RPE -->
+  <div style="margin: 10px">
+     <code>L S-RPE</code>
+  </div>
+  <audio controls src="/assets/projects/structurepe/next_ts/less_good/srpe/0-tgt.wav" style="width:225px; margin:10px">
+  </audio>
+  <audio controls src="/assets/projects/structurepe/next_ts/less_good/srpe/0-pred.wav" style="width:225px; margin:10px">
+  </audio>
+  <div style="margin: 10px">
+  </div>
+  <div style="margin: 10px">
+  <img src="/assets/projects/structurepe/next_ts/less_good/srpe/0_tgt.png" style="width:175px;height:175px;">
+  </div>
+  <div style="margin: 10px">
+  <img src="/assets/projects/structurepe/next_ts/less_good/srpe/0_pred.png" style="width:175px;height:175px;">
+  </div>
+  <!-- S S-RPE -->
+  <div style="margin: 10px">
+     <code>S S-RPE/b</code>
+  </div>
+  <audio controls src="/assets/projects/structurepe/next_ts/less_good/ssrpe/4-tgt.wav" style="width:225px; margin:10px">
+  </audio>
+  <audio controls src="/assets/projects/structurepe/next_ts/less_good/ssrpe/4-pred.wav" style="width:225px; margin:10px">
+  </audio>
+  <div style="margin: 10px">
+  </div>
+  <div style="margin: 10px">
+  <img src="/assets/projects/structurepe/next_ts/less_good/ssrpe/4_tgt.png" style="width:175px;height:175px;">
+  </div>
+  <div style="margin: 10px">
+  <img src="/assets/projects/structurepe/next_ts/less_good/ssrpe/4_pred.png" style="width:175px;height:175px;">
+  </div>
+  <!-- NS-RPE/c -->
+  <div style="margin: 10px">
+     <code>NS-RPE/c</code>
+  </div>
+  <audio controls src="/assets/projects/structurepe/next_ts/less_good/nsrpe_c/6-tgt.wav" style="width:225px; margin:10px">
+  </audio>
+  <audio controls src="/assets/projects/structurepe/next_ts/less_good/nsrpe_c/6-pred.wav" style="width:225px; margin:10px">
+  </audio>
+  <div style="margin: 10px">
+  </div>
+  <div style="margin: 10px">
+  <img src="/assets/projects/structurepe/next_ts/less_good/nsrpe_c/6_tgt.png" style="width:175px;height:175px;">
+  </div>
+  <div style="margin: 10px">
+  <img src="/assets/projects/structurepe/next_ts/less_good/nsrpe_c/6_pred.png" style="width:175px;height:175px;">
+  </div>
+  <!-- NS-RPE/s -->
+  <div style="margin: 10px">
+     <code>NS-RPE/s</code>
+  </div>
+  <audio controls src="/assets/projects/structurepe/next_ts/less_good/nsrpe_s/10-tgt.wav" style="width:225px; margin:10px">
+  </audio>
+  <audio controls src="/assets/projects/structurepe/next_ts/less_good/nsrpe_s/10-pred.wav" style="width:225px; margin:10px">
+  </audio>
+  <div style="margin: 10px">
+  </div>
+  <div style="margin: 10px">
+  <img src="/assets/projects/structurepe/next_ts/less_good/nsrpe_s/10_tgt.png" style="width:175px;height:175px;">
+  </div>
+  <div style="margin: 10px">
+  <img src="/assets/projects/structurepe/next_ts/less_good/nsrpe_s/10_pred.png" style="width:175px;height:175px;">
+  </div>
+</div>
 
 ## Accompaniment Generation
-
 ### Good Examples
-
 #### Baselines
 
+<div style="display: grid;grid-template-columns: 200px 1fr 1fr;grid-gap: 5px;width: 100%;place-items: center">
+    <!-- HEADER -->
+    <div style="margin: 10px;width: 200px;text-align: center">
+    Melody
+    </div>
+    <div style="margin: 10px;width: 200px;text-align: center">
+    Target
+    </div>
+    <div style="margin: 10px;width: 200px;text-align: center">
+    Prediction
+    </div>
+    <!-- NoPE -->
+    <div style="margin: 10px;text-align: center;height: 20px">
+     <code>NoPE</code>
+    </div>
+    <div style="margin: 10px;text-align: center;height: 20px">
+    </div>
+    <div style="margin: 10px;text-align: center;height: 20px">
+    </div>
+    <audio controls src="/assets/projects/structurepe/acc_gen/good/nope/1-melody_bridge.wav" style="width:200px; margin:10px">
+    </audio>
+    <audio controls src="/assets/projects/structurepe/acc_gen/good/nope/1-tgt.wav" style="width:200px; margin:10px">
+    </audio>
+    <audio controls src="/assets/projects/structurepe/acc_gen/good/nope/1-pred.wav" style="width:200px; margin:10px">
+    </audio>
+    <div style="margin: 10px">
+    </div>
+    <div style="margin: 10px">
+    <img src="/assets/projects/structurepe/acc_gen/good/nope/1_tgt.png" style="width:175px;height:175px;">
+    </div>
+    <div style="margin: 10px">
+    <img src="/assets/projects/structurepe/acc_gen/good/nope/1_pred.png" style="width:175px;height:175px;">
+    </div>
+    <!-- APE -->
+    <div style="margin: 10px;text-align: center;height: 20px">
+     <code>APE</code>
+    </div>
+    <div style="margin: 10px;text-align: center;height: 20px">
+    </div>
+    <div style="margin: 10px;text-align: center;height: 20px">
+    </div>
+    <audio controls src="/assets/projects/structurepe/acc_gen/good/ape/6-melody_bridge.wav" style="width:200px; margin:10px">
+    </audio>
+    <audio controls src="/assets/projects/structurepe/acc_gen/good/ape/6-tgt.wav" style="width:200px; margin:10px">
+    </audio>
+    <audio controls src="/assets/projects/structurepe/acc_gen/good/ape/6-pred.wav" style="width:200px; margin:10px">
+    </audio>
+    <div style="margin: 10px">
+    </div>
+    <div style="margin: 10px">
+    <img src="/assets/projects/structurepe/acc_gen/good/ape/6_tgt.png" style="width:175px;height:175px;">
+    </div>
+    <div style="margin: 10px">
+    <img src="/assets/projects/structurepe/acc_gen/good/ape/6_pred.png" style="width:175px;height:175px;">
+    </div>
+    <!-- RPE -->
+    <div style="margin: 10px;text-align: center;height: 20px">
+     <code>RPE</code>
+    </div>
+    <div style="margin: 10px;text-align: center;height: 20px">
+    </div>
+    <div style="margin: 10px;text-align: center;height: 20px">
+    </div>
+    <audio controls src="/assets/projects/structurepe/acc_gen/good/rpe/1-melody_bridge.wav" style="width:200px; margin:10px">
+    </audio>
+    <audio controls src="/assets/projects/structurepe/acc_gen/good/rpe/1-tgt.wav" style="width:200px; margin:10px">
+    </audio>
+    <audio controls src="/assets/projects/structurepe/acc_gen/good/rpe/1-pred.wav" style="width:200px; margin:10px">
+    </audio>
+    <div style="margin: 10px">
+    </div>
+    <div style="margin: 10px">
+    <img src="/assets/projects/structurepe/acc_gen/good/rpe/1_tgt.png" style="width:175px;height:175px;">
+    </div>
+    <div style="margin: 10px">
+    <img src="/assets/projects/structurepe/acc_gen/good/rpe/1_pred.png" style="width:175px;height:175px;">
+    </div>
+    <!-- S-APE/b -->
+    <div style="margin: 10px;text-align: center;height: 20px">
+     <code>S-APE/b</code>
+    </div>
+    <div style="margin: 10px;text-align: center;height: 20px">
+    </div>
+    <div style="margin: 10px;text-align: center;height: 20px">
+    </div>
+    <audio controls src="/assets/projects/structurepe/acc_gen/good/sape_b/13-melody_bridge.wav" style="width:200px; margin:10px">
+    </audio>
+    <audio controls src="/assets/projects/structurepe/acc_gen/good/sape_b/13-tgt.wav" style="width:200px; margin:10px">
+    </audio>
+    <audio controls src="/assets/projects/structurepe/acc_gen/good/sape_b/13-pred.wav" style="width:200px; margin:10px">
+    </audio>
+    <div style="margin: 10px">
+    </div>
+    <div style="margin: 10px">
+    <img src="/assets/projects/structurepe/acc_gen/good/sape_b/13_tgt.png" style="width:175px;height:175px;">
+    </div>
+    <div style="margin: 10px">
+    <img src="/assets/projects/structurepe/acc_gen/good/sape_b/13_pred.png" style="width:175px;height:175px;">
+    </div>
+    <!-- S-RPE/b -->
+    <div style="margin: 10px;text-align: center;height: 20px">
+     <code>S-RPE/b</code>
+    </div>
+    <div style="margin: 10px;text-align: center;height: 20px">
+    </div>
+    <div style="margin: 10px;text-align: center;height: 20px">
+    </div>
+    <audio controls src="/assets/projects/structurepe/acc_gen/good/srpe_b/5-melody_bridge.wav" style="width:200px; margin:10px">
+    </audio>
+    <audio controls src="/assets/projects/structurepe/acc_gen/good/srpe_b/5-tgt.wav" style="width:200px; margin:10px">
+    </audio>
+    <audio controls src="/assets/projects/structurepe/acc_gen/good/srpe_b/5-pred.wav" style="width:200px; margin:10px">
+    </audio>
+    <div style="margin: 10px">
+    </div>
+    <div style="margin: 10px">
+    <img src="/assets/projects/structurepe/acc_gen/good/srpe_b/5_tgt.png" style="width:175px;height:175px;">
+    </div>
+    <div style="margin: 10px">
+    <img src="/assets/projects/structurepe/acc_gen/good/srpe_b/5_pred.png" style="width:175px;height:175px;">
+    </div>
+</div>
+
 #### Our Methods
+
+<div style="display: grid;grid-template-columns: 200px 1fr 1fr;grid-gap: 5px;width: 100%;place-items: center">
+    <!-- HEADER -->
+    <div style="margin: 10px;width: 200px;text-align: center">
+    Melody
+    </div>
+    <div style="margin: 10px;width: 200px;text-align: center">
+    Target
+    </div>
+    <div style="margin: 10px;width: 200px;text-align: center">
+    Prediction
+    </div>
+    <!-- L S-APE -->
+    <div style="margin: 10px;text-align: center;height: 20px">
+     <code>L S-APE</code>
+    </div>
+    <div style="margin: 10px;text-align: center;height: 20px">
+    </div>
+    <div style="margin: 10px;text-align: center;height: 20px">
+    </div>
+    <audio controls src="/assets/projects/structurepe/acc_gen/good/sape/3-melody_bridge.wav" style="width:200px; margin:10px">
+    </audio>
+    <audio controls src="/assets/projects/structurepe/acc_gen/good/sape/3-tgt.wav" style="width:200px; margin:10px">
+    </audio>
+    <audio controls src="/assets/projects/structurepe/acc_gen/good/sape/3-pred.wav" style="width:200px; margin:10px">
+    </audio>
+    <div style="margin: 10px">
+    </div>
+    <div style="margin: 10px">
+    <img src="/assets/projects/structurepe/acc_gen/good/sape/3_tgt.png" style="width:175px;height:175px;">
+    </div>
+    <div style="margin: 10px">
+    <img src="/assets/projects/structurepe/acc_gen/good/sape/3_pred.png" style="width:175px;height:175px;">
+    </div>
+    <!-- S S-APE -->
+    <div style="margin: 10px;text-align: center;height: 20px">
+     <code>S S-APE</code>
+    </div>
+    <div style="margin: 10px;text-align: center;height: 20px">
+    </div>
+    <div style="margin: 10px;text-align: center;height: 20px">
+    </div>
+    <audio controls src="/assets/projects/structurepe/acc_gen/good/ssape/7-melody_bridge.wav" style="width:200px; margin:10px">
+    </audio>
+    <audio controls src="/assets/projects/structurepe/acc_gen/good/ssape/7-tgt.wav" style="width:200px; margin:10px">
+    </audio>
+    <audio controls src="/assets/projects/structurepe/acc_gen/good/ssape/7-pred.wav" style="width:200px; margin:10px">
+    </audio>
+    <div style="margin: 10px">
+    </div>
+    <div style="margin: 10px">
+    <img src="/assets/projects/structurepe/acc_gen/good/ssape/7_tgt.png" style="width:175px;height:175px;">
+    </div>
+    <div style="margin: 10px">
+    <img src="/assets/projects/structurepe/acc_gen/good/ssape/7_pred.png" style="width:175px;height:175px;">
+    </div>
+    <!-- L S-RPE -->
+    <div style="margin: 10px;text-align: center;height: 20px">
+     <code>L S-RPE</code>
+    </div>
+    <div style="margin: 10px;text-align: center;height: 20px">
+    </div>
+    <div style="margin: 10px;text-align: center;height: 20px">
+    </div>
+    <audio controls src="/assets/projects/structurepe/acc_gen/good/srpe/6-melody_bridge.wav" style="width:200px; margin:10px">
+    </audio>
+    <audio controls src="/assets/projects/structurepe/acc_gen/good/srpe/6-tgt.wav" style="width:200px; margin:10px">
+    </audio>
+    <audio controls src="/assets/projects/structurepe/acc_gen/good/srpe/6-pred.wav" style="width:200px; margin:10px">
+    </audio>
+    <div style="margin: 10px">
+    </div>
+    <div style="margin: 10px">
+    <img src="/assets/projects/structurepe/acc_gen/good/srpe/6_tgt.png" style="width:175px;height:175px;">
+    </div>
+    <div style="margin: 10px">
+    <img src="/assets/projects/structurepe/acc_gen/good/srpe/6_pred.png" style="width:175px;height:175px;">
+    </div>
+    <!-- S S-RPE -->
+    <div style="margin: 10px;text-align: center;height: 20px">
+     <code>S S-RPE</code>
+    </div>
+    <div style="margin: 10px;text-align: center;height: 20px">
+    </div>
+    <div style="margin: 10px;text-align: center;height: 20px">
+    </div>
+    <audio controls src="/assets/projects/structurepe/acc_gen/good/ssrpe/3-melody_bridge.wav" style="width:200px; margin:10px">
+    </audio>
+    <audio controls src="/assets/projects/structurepe/acc_gen/good/ssrpe/3-tgt.wav" style="width:200px; margin:10px">
+    </audio>
+    <audio controls src="/assets/projects/structurepe/acc_gen/good/ssrpe/3-pred.wav" style="width:200px; margin:10px">
+    </audio>
+    <div style="margin: 10px">
+    </div>
+    <div style="margin: 10px">
+    <img src="/assets/projects/structurepe/acc_gen/good/ssrpe/3_tgt.png" style="width:175px;height:175px;">
+    </div>
+    <div style="margin: 10px">
+    <img src="/assets/projects/structurepe/acc_gen/good/ssrpe/3_pred.png" style="width:175px;height:175px;">
+    </div>
+    <!-- NS-RPE/c -->
+    <div style="margin: 10px;text-align: center;height: 20px">
+     <code>NS-RPE/c</code>
+    </div>
+    <div style="margin: 10px;text-align: center;height: 20px">
+    </div>
+    <div style="margin: 10px;text-align: center;height: 20px">
+    </div>
+    <audio controls src="/assets/projects/structurepe/acc_gen/good/nsrpe_c/35-melody_bridge.wav" style="width:200px; margin:10px">
+    </audio>
+    <audio controls src="/assets/projects/structurepe/acc_gen/good/nsrpe_c/35-tgt.wav" style="width:200px; margin:10px">
+    </audio>
+    <audio controls src="/assets/projects/structurepe/acc_gen/good/nsrpe_c/35-pred.wav" style="width:200px; margin:10px">
+    </audio>
+    <div style="margin: 10px">
+    </div>
+    <div style="margin: 10px">
+    <img src="/assets/projects/structurepe/acc_gen/good/nsrpe_c/35_tgt.png" style="width:175px;height:175px;">
+    </div>
+    <div style="margin: 10px">
+    <img src="/assets/projects/structurepe/acc_gen/good/nsrpe_c/35_pred.png" style="width:175px;height:175px;">
+    </div>
+    <!-- NS-RPE/s -->
+    <div style="margin: 10px;text-align: center;height: 20px">
+     <code>NS-RPE/s</code>
+    </div>
+    <div style="margin: 10px;text-align: center;height: 20px">
+    </div>
+    <div style="margin: 10px;text-align: center;height: 20px">
+    </div>
+    <audio controls src="/assets/projects/structurepe/acc_gen/good/nsrpe_s/20-melody_bridge.wav" style="width:200px; margin:10px">
+    </audio>
+    <audio controls src="/assets/projects/structurepe/acc_gen/good/nsrpe_s/20-tgt.wav" style="width:200px; margin:10px">
+    </audio>
+    <audio controls src="/assets/projects/structurepe/acc_gen/good/nsrpe_s/20-pred.wav" style="width:200px; margin:10px">
+    </audio>
+    <div style="margin: 10px">
+    </div>
+    <div style="margin: 10px">
+    <img src="/assets/projects/structurepe/acc_gen/good/nsrpe_s/20_tgt.png" style="width:175px;height:175px;">
+    </div>
+    <div style="margin: 10px">
+    <img src="/assets/projects/structurepe/acc_gen/good/nsrpe_s/20_pred.png" style="width:175px;height:175px;">
+    </div>
+</div>
 
 ### Bad Examples
-
 #### Baselines
+
+<div style="display: grid;grid-template-columns: 200px 1fr 1fr;grid-gap: 5px;width: 100%;place-items: center">
+    <!-- HEADER -->
+    <div style="margin: 10px;width: 200px;text-align: center">
+    Melody
+    </div>
+    <div style="margin: 10px;width: 200px;text-align: center">
+    Target
+    </div>
+    <div style="margin: 10px;width: 200px;text-align: center">
+    Prediction
+    </div>
+    <!-- NoPE -->
+    <div style="margin: 10px;text-align: center;height: 20px">
+     <code>NoPE</code>
+    </div>
+    <div style="margin: 10px;text-align: center;height: 20px">
+    </div>
+    <div style="margin: 10px;text-align: center;height: 20px">
+    </div>
+    <audio controls src="/assets/projects/structurepe/acc_gen/less_good/nope/34-melody_bridge.wav" style="width:200px; margin:10px">
+    </audio>
+    <audio controls src="/assets/projects/structurepe/acc_gen/less_good/nope/34-tgt.wav" style="width:200px; margin:10px">
+    </audio>
+    <audio controls src="/assets/projects/structurepe/acc_gen/less_good/nope/34-pred.wav" style="width:200px; margin:10px">
+    </audio>
+    <div style="margin: 10px">
+    </div>
+    <div style="margin: 10px">
+    <img src="/assets/projects/structurepe/acc_gen/less_good/nope/34_tgt.png" style="width:175px;height:175px;">
+    </div>
+    <div style="margin: 10px">
+    <img src="/assets/projects/structurepe/acc_gen/less_good/nope/34_pred.png" style="width:175px;height:175px;">
+    </div>
+    <!-- APE -->
+    <div style="margin: 10px;text-align: center;height: 20px">
+     <code>APE</code>
+    </div>
+    <div style="margin: 10px;text-align: center;height: 20px">
+    </div>
+    <div style="margin: 10px;text-align: center;height: 20px">
+    </div>
+    <audio controls src="/assets/projects/structurepe/acc_gen/less_good/ape/1-melody_bridge.wav" style="width:200px; margin:10px">
+    </audio>
+    <audio controls src="/assets/projects/structurepe/acc_gen/less_good/ape/1-tgt.wav" style="width:200px; margin:10px">
+    </audio>
+    <audio controls src="/assets/projects/structurepe/acc_gen/less_good/ape/1-pred.wav" style="width:200px; margin:10px">
+    </audio>
+    <div style="margin: 10px">
+    </div>
+    <div style="margin: 10px">
+    <img src="/assets/projects/structurepe/acc_gen/less_good/ape/1_tgt.png" style="width:175px;height:175px;">
+    </div>
+    <div style="margin: 10px">
+    <img src="/assets/projects/structurepe/acc_gen/less_good/ape/1_pred.png" style="width:175px;height:175px;">
+    </div>
+    <!-- RPE -->
+    <div style="margin: 10px;text-align: center;height: 20px">
+     <code>RPE</code>
+    </div>
+    <div style="margin: 10px;text-align: center;height: 20px">
+    </div>
+    <div style="margin: 10px;text-align: center;height: 20px">
+    </div>
+    <audio controls src="/assets/projects/structurepe/acc_gen/less_good/rpe/1-melody_bridge.wav" style="width:200px; margin:10px">
+    </audio>
+    <audio controls src="/assets/projects/structurepe/acc_gen/less_good/rpe/1-tgt.wav" style="width:200px; margin:10px">
+    </audio>
+    <audio controls src="/assets/projects/structurepe/acc_gen/less_good/rpe/1-pred.wav" style="width:200px; margin:10px">
+    </audio>
+    <div style="margin: 10px">
+    </div>
+    <div style="margin: 10px">
+    <img src="/assets/projects/structurepe/acc_gen/less_good/rpe/1_tgt.png" style="width:175px;height:175px;">
+    </div>
+    <div style="margin: 10px">
+    <img src="/assets/projects/structurepe/acc_gen/less_good/rpe/1_pred.png" style="width:175px;height:175px;">
+    </div>
+    <!-- S-APE/b -->
+    <div style="margin: 10px;text-align: center;height: 20px">
+     <code>S-APE/b</code>
+    </div>
+    <div style="margin: 10px;text-align: center;height: 20px">
+    </div>
+    <div style="margin: 10px;text-align: center;height: 20px">
+    </div>
+    <audio controls src="/assets/projects/structurepe/acc_gen/less_good/sape_b/4-melody_bridge.wav" style="width:200px; margin:10px">
+    </audio>
+    <audio controls src="/assets/projects/structurepe/acc_gen/less_good/sape_b/4-tgt.wav" style="width:200px; margin:10px">
+    </audio>
+    <audio controls src="/assets/projects/structurepe/acc_gen/less_good/sape_b/4-pred.wav" style="width:200px; margin:10px">
+    </audio>
+    <div style="margin: 10px">
+    </div>
+    <div style="margin: 10px">
+    <img src="/assets/projects/structurepe/acc_gen/less_good/sape_b/4_tgt.png" style="width:175px;height:175px;">
+    </div>
+    <div style="margin: 10px">
+    <img src="/assets/projects/structurepe/acc_gen/less_good/sape_b/4_pred.png" style="width:175px;height:175px;">
+    </div>
+    <!-- S-RPE/b -->
+    <div style="margin: 10px;text-align: center;height: 20px">
+     <code>S-RPE/b</code>
+    </div>
+    <div style="margin: 10px;text-align: center;height: 20px">
+    </div>
+    <div style="margin: 10px;text-align: center;height: 20px">
+    </div>
+    <audio controls src="/assets/projects/structurepe/acc_gen/less_good/srpe_b/2-melody_bridge.wav" style="width:200px; margin:10px">
+    </audio>
+    <audio controls src="/assets/projects/structurepe/acc_gen/less_good/srpe_b/2-tgt.wav" style="width:200px; margin:10px">
+    </audio>
+    <audio controls src="/assets/projects/structurepe/acc_gen/less_good/srpe_b/2-pred.wav" style="width:200px; margin:10px">
+    </audio>
+    <div style="margin: 10px">
+    </div>
+    <div style="margin: 10px">
+    <img src="/assets/projects/structurepe/acc_gen/less_good/srpe_b/2_tgt.png" style="width:175px;height:175px;">
+    </div>
+    <div style="margin: 10px">
+    <img src="/assets/projects/structurepe/acc_gen/less_good/srpe_b/2_pred.png" style="width:175px;height:175px;">
+    </div>
+</div>
 
 #### Our Methods
 
-[Good examples :link:](../spe/acc_gen/good)
+<div style="display: grid;grid-template-columns: 200px 1fr 1fr;grid-gap: 5px;width: 100%;place-items: center">
+    <!-- HEADER -->
+    <div style="margin: 10px;width: 200px;text-align: center">
+    Melody
+    </div>
+    <div style="margin: 10px;width: 200px;text-align: center">
+    Target
+    </div>
+    <div style="margin: 10px;width: 200px;text-align: center">
+    Prediction
+    </div>
+    <!-- L S-APE -->
+    <div style="margin: 10px;text-align: center;height: 20px">
+     <code>L S-APE</code>
+    </div>
+    <div style="margin: 10px;text-align: center;height: 20px">
+    </div>
+    <div style="margin: 10px;text-align: center;height: 20px">
+    </div>
+    <audio controls src="/assets/projects/structurepe/acc_gen/less_good/sape/5-melody_bridge.wav" style="width:200px; margin:10px">
+    </audio>
+    <audio controls src="/assets/projects/structurepe/acc_gen/less_good/sape/5-tgt.wav" style="width:200px; margin:10px">
+    </audio>
+    <audio controls src="/assets/projects/structurepe/acc_gen/less_good/sape/5-pred.wav" style="width:200px; margin:10px">
+    </audio>
+    <div style="margin: 10px">
+    </div>
+    <div style="margin: 10px">
+    <img src="/assets/projects/structurepe/acc_gen/less_good/sape/5_tgt.png" style="width:175px;height:175px;">
+    </div>
+    <div style="margin: 10px">
+    <img src="/assets/projects/structurepe/acc_gen/less_good/sape/5_pred.png" style="width:175px;height:175px;">
+    </div>
+    <!-- S S-APE -->
+    <div style="margin: 10px;text-align: center;height: 20px">
+     <code>S S-APE</code>
+    </div>
+    <div style="margin: 10px;text-align: center;height: 20px">
+    </div>
+    <div style="margin: 10px;text-align: center;height: 20px">
+    </div>
+    <audio controls src="/assets/projects/structurepe/acc_gen/less_good/ssape/0-melody_bridge.wav" style="width:200px; margin:10px">
+    </audio>
+    <audio controls src="/assets/projects/structurepe/acc_gen/less_good/ssape/0-tgt.wav" style="width:200px; margin:10px">
+    </audio>
+    <audio controls src="/assets/projects/structurepe/acc_gen/less_good/ssape/0-pred.wav" style="width:200px; margin:10px">
+    </audio>
+    <div style="margin: 10px">
+    </div>
+    <div style="margin: 10px">
+    <img src="/assets/projects/structurepe/acc_gen/less_good/ssape/0_tgt.png" style="width:175px;height:175px;">
+    </div>
+    <div style="margin: 10px">
+    <img src="/assets/projects/structurepe/acc_gen/less_good/ssape/0_pred.png" style="width:175px;height:175px;">
+    </div>
+    <!-- L S-RPE -->
+    <div style="margin: 10px;text-align: center;height: 20px">
+     <code>L S-RPE</code>
+    </div>
+    <div style="margin: 10px;text-align: center;height: 20px">
+    </div>
+    <div style="margin: 10px;text-align: center;height: 20px">
+    </div>
+    <audio controls src="/assets/projects/structurepe/acc_gen/less_good/srpe/0-melody_bridge.wav" style="width:200px; margin:10px">
+    </audio>
+    <audio controls src="/assets/projects/structurepe/acc_gen/less_good/srpe/0-tgt.wav" style="width:200px; margin:10px">
+    </audio>
+    <audio controls src="/assets/projects/structurepe/acc_gen/less_good/srpe/0-pred.wav" style="width:200px; margin:10px">
+    </audio>
+    <div style="margin: 10px">
+    </div>
+    <div style="margin: 10px">
+    <img src="/assets/projects/structurepe/acc_gen/less_good/srpe/0_tgt.png" style="width:175px;height:175px;">
+    </div>
+    <div style="margin: 10px">
+    <img src="/assets/projects/structurepe/acc_gen/less_good/srpe/0_pred.png" style="width:175px;height:175px;">
+    </div>
+    <!-- S S-RPE -->
+    <div style="margin: 10px;text-align: center;height: 20px">
+     <code>S S-RPE</code>
+    </div>
+    <div style="margin: 10px;text-align: center;height: 20px">
+    </div>
+    <div style="margin: 10px;text-align: center;height: 20px">
+    </div>
+    <audio controls src="/assets/projects/structurepe/acc_gen/less_good/ssrpe/3-melody_bridge.wav" style="width:200px; margin:10px">
+    </audio>
+    <audio controls src="/assets/projects/structurepe/acc_gen/less_good/ssrpe/3-tgt.wav" style="width:200px; margin:10px">
+    </audio>
+    <audio controls src="/assets/projects/structurepe/acc_gen/less_good/ssrpe/3-pred.wav" style="width:200px; margin:10px">
+    </audio>
+    <div style="margin: 10px">
+    </div>
+    <div style="margin: 10px">
+    <img src="/assets/projects/structurepe/acc_gen/less_good/ssrpe/3_tgt.png" style="width:175px;height:175px;">
+    </div>
+    <div style="margin: 10px">
+    <img src="/assets/projects/structurepe/acc_gen/less_good/ssrpe/3_pred.png" style="width:175px;height:175px;">
+    </div>
+    <!-- NS-RPE/c -->
+    <div style="margin: 10px;text-align: center;height: 20px">
+     <code>NS-RPE/c</code>
+    </div>
+    <div style="margin: 10px;text-align: center;height: 20px">
+    </div>
+    <div style="margin: 10px;text-align: center;height: 20px">
+    </div>
+    <audio controls src="/assets/projects/structurepe/acc_gen/less_good/nsrpe_c/0-melody_bridge.wav" style="width:200px; margin:10px">
+    </audio>
+    <audio controls src="/assets/projects/structurepe/acc_gen/less_good/nsrpe_c/0-tgt.wav" style="width:200px; margin:10px">
+    </audio>
+    <audio controls src="/assets/projects/structurepe/acc_gen/less_good/nsrpe_c/0-pred.wav" style="width:200px; margin:10px">
+    </audio>
+    <div style="margin: 10px">
+    </div>
+    <div style="margin: 10px">
+    <img src="/assets/projects/structurepe/acc_gen/less_good/nsrpe_c/0_tgt.png" style="width:175px;height:175px;">
+    </div>
+    <div style="margin: 10px">
+    <img src="/assets/projects/structurepe/acc_gen/less_good/nsrpe_c/0_pred.png" style="width:175px;height:175px;">
+    </div>
+    <!-- NS-RPE/s -->
+    <div style="margin: 10px;text-align: center;height: 20px">
+     <code>NS-RPE/s</code>
+    </div>
+    <div style="margin: 10px;text-align: center;height: 20px">
+    </div>
+    <div style="margin: 10px;text-align: center;height: 20px">
+    </div>
+    <audio controls src="/assets/projects/structurepe/acc_gen/less_good/nsrpe_s/27-melody_bridge.wav" style="width:200px; margin:10px">
+    </audio>
+    <audio controls src="/assets/projects/structurepe/acc_gen/less_good/nsrpe_s/27-tgt.wav" style="width:200px; margin:10px">
+    </audio>
+    <audio controls src="/assets/projects/structurepe/acc_gen/less_good/nsrpe_s/27-pred.wav" style="width:200px; margin:10px">
+    </audio>
+    <div style="margin: 10px">
+    </div>
+    <div style="margin: 10px">
+    <img src="/assets/projects/structurepe/acc_gen/less_good/nsrpe_s/27_tgt.png" style="width:175px;height:175px;">
+    </div>
+    <div style="margin: 10px">
+    <img src="/assets/projects/structurepe/acc_gen/less_good/nsrpe_s/27_pred.png" style="width:175px;height:175px;">
+    </div>
+</div>
 
-[Not-So-Good examples :link:](../spe/acc_gen/not_so_good)
+<br><br>
 
 # Dataset Supplement
 
@@ -310,6 +1032,8 @@ Below, I show the validation loss for a selection of baselines and proposed meth
   <img src="/assets/projects/structurepe/figs/acc_gen.png" alt="Accompaniment Generation" style="width: 375px">
   </div>
 </div>
+
+<br><br>
 
 # Training Details
 
