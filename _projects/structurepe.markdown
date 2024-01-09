@@ -103,6 +103,8 @@ Below, we give some good and bad examples of both the baseline methods and our p
 
 We only use the sinusoidal embedding with the `NS-*` variants because of constraints on computational capacity.
 
+Along with the samples, we also plot the self-similarity matrices depicting the structure of the corresponding song. 
+
 ## Next-timestep Prediction
 ### Good Examples
 
