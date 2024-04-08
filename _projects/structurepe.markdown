@@ -10,15 +10,19 @@ importance: 1
 
 
 This is the companion website to our ICASSP 2024 paper: 
-_Structure-informed Positional Encoding for Music Generation_.
+_Structure-informed Positional Encoding for Music Generation_.<br><br>
+
+📢 NEW! Our paper was selected for an oral presentation! If you are at ICASSP 2024, you can find us presenting this work at session **AASP-L2** in Room 105 at 17:50 on Tuesday, April 16, 2024. See you in Seoul!
 
 ___
 
-💻 Code: [GitHub](https://github.com/agarwalmanvi/agarwalmanvi.github.io)<br>
-💾 Dataset: [Zenodo](https://github.com/agarwalmanvi/agarwalmanvi.github.io)<br>
-📔 Paper: [arXiV](https://github.com/agarwalmanvi/agarwalmanvi.github.io)
-[HAL](https://github.com/agarwalmanvi/agarwalmanvi.github.io)
-[IEEE](https://github.com/agarwalmanvi/agarwalmanvi.github.io)
+💻 Code: [GitHub](https://github.com/agarwalmanvi/structurePE)<br>
+💾 Dataset: [Zenodo](https://zenodo.org/records/10932363)<br>
+📔 Paper: [arXiV](https://arxiv.org/abs/2402.13301v2)
+[HAL](https://hal.science/hal-04432659v3)
+[IEEE](https://doi.org/10.1109/ICASSP48485.2024.10448149)<br>
+🔗 DOI: 10.1109/ICASSP48485.2024.10448149
+
 
 ___
 
