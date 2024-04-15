@@ -9,6 +9,22 @@ importance: 1
 <script src="https://cdn.jsdelivr.net/combine/npm/tone@14.7.58,npm/@magenta/music@1.23.1/es6/core.js,npm/focus-visible@5,npm/html-midi-player@1.5.0"></script>
 
 
+# Demo for ICASSP oral presentation
+
+<div style="display:grid; grid-template-columns:1fr 1fr; grid-gap:5px; width:100%; place-items: center">
+<div>Melody + Bridge</div><div>Melody + Bridge + Accompaniment</div>
+<div>
+<audio controls src="/assets/projects/structurepe/demo/12-melody_bridge.wav" style="width:225px; margin:10px">
+</audio>
+</div>
+<div>
+<audio controls src="/assets/projects/structurepe/demo/12-pred.wav" style="width:225px; margin:10px">
+</audio>
+</div>
+</div>
+
+
+
 This is the companion website to our ICASSP 2024 paper: 
 _Structure-informed Positional Encoding for Music Generation_.<br><br>
 
