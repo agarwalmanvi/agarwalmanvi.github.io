@@ -6,12 +6,12 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Manvi
 middle_name:
 last_name: Agarwal
-email: u@example.com
+#email: manvi.agarwal@example.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  My personal webpages.
+#  My personal webpages.
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+#  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
 icon: 🎶  # the emoji used as the favicon
 url:  # the base hostname & protocol for your site
@@ -44,9 +44,9 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: agarwalmanvi # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: ManviTweeteth # your Twitter handle
+#twitter_username: # ManviTweeteth # your Twitter handle
 linkedin_username: # your LinkedIn user name
-scholar_userid:  # your Google Scholar ID
+scholar_userid: POZMS9QAAAAJ
 orcid_id: 0000-0002-8151-2176 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
@@ -171,10 +171,10 @@ enable_mansory:             true   # enables automatic project cards arangement
 enable_math:                true   # enables math typesetting (uses MathJax)
 enable_tooltips:            false  # enables automatic tooltip links generated
                                    # for each section titles on pages and posts
-enable_darkmode:            true   # enables switching between light/dark modes
-enable_navbar_social:       false  # enables displaying social links in the
+enable_darkmode:            false   # enables switching between light/dark modes
+enable_navbar_social:       true  # enables displaying social links in the
                                    # navbar on the about page
-enable_project_categories:  true   # enables categorization of projects into
+enable_project_categories:  false   # enables categorization of projects into
                                    # multiple categories
 
 # -----------------------------------------------------------------------------

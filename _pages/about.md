@@ -20,3 +20,5 @@ I am interested in using Machine Learning methods for analyzing and extracting i
 Before starting my PhD, I worked as a Machine Learning Engineer at <a href="https://www.sentinels.ai/">Sentinels</a> in Groningen, The Netherlands, building solutions for the financial transaction processing industry. I completed my Masters in Artificial Intelligence with _cum laude_ distinction at the University of Groningen in 2020.
 
 My PhD research looks at how inductive biases can be infused into Transformers by using the positional encoding module to insert musically-relevant structural information.
+
+The best way to reach me is to write me an email at `firstname dot lastname at telecom-paris dot fr`.
