@@ -8,8 +8,7 @@ importance: 1
 
 <script src="https://cdn.jsdelivr.net/combine/npm/tone@14.7.58,npm/@magenta/music@1.23.1/es6/core.js,npm/focus-visible@5,npm/html-midi-player@1.5.0"></script>
 
-This is the companion website to our ICASSP 2024 paper: 
-_Structure-informed Positional Encoding for Music Generation_.<br><br>
+This is the companion website to our ICASSP 2024 paper: _Structure-informed Positional Encoding for Music Generation_.<br><br>
 
 📢 NEW! Our paper was selected for an oral presentation! If you are at ICASSP 2024, you can find us presenting this work at session **AASP-L2** in Room 105 at 17:50 on Tuesday, April 16, 2024. See you in Seoul!
 
@@ -22,7 +21,6 @@ _Structure-informed Positional Encoding for Music Generation_.<br><br>
 [IEEE](https://doi.org/10.1109/ICASSP48485.2024.10448149)<br>
 🔗 DOI: 10.1109/ICASSP48485.2024.10448149
 
-
 ---
 
 # Contents
@@ -32,7 +30,6 @@ _Structure-informed Positional Encoding for Music Generation_.<br><br>
 3. [Generated Samples](#generated-samples)
    1. [Next-timestep Prediction](#next-timestep-prediction): jump to good examples (<a href="#nexttsgoodbaselines">Baselines</a>, <a href="#nexttsgoodours">Our Methods</a>) and bad examples (<a href="#nexttsbadbaselines">Baselines</a>, <a href="#nexttsbadours">Our Methods</a>)
    2. [Accompaniment Generation](#accompaniment-generation): jump to good examples (<a href="#accgoodbaselines">Baselines</a>, <a href="#accgoodours">Our Methods</a>) and bad examples (<a href="#accbadbaselines">Baselines</a>, <a href="#accbadours">Our Methods</a>)
-
 
 <br><br>
 
@@ -109,6 +106,7 @@ We only use the sinusoidal embedding with the `NS-*` variants because of constra
 Along with the samples, we also plot the self-similarity matrices depicting the structure of the corresponding song.
 
 ## Next-timestep Prediction
+
 ### Good Examples
 
 <h4 id="nexttsgoodbaselines">Baselines</h4>
