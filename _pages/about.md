@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a PhD student working with [Gaël Richard](https://perso.telecom-paristech.fr/grichard/) and [Changhong Wang](https://changhongw.github.io/) at [Télécom Paris, Institut Polytechnique de Paris](https://www.ip-paris.fr/en), supported by the ERC-funded [Hi-Audio project](https://hi-audio.imt.fr/). 
+I am a PhD student working with [Gaël Richard](https://perso.telecom-paristech.fr/grichard/) and [Changhong Wang](https://changhongw.github.io/) at [Télécom Paris, Institut Polytechnique de Paris](https://www.ip-paris.fr/en), supported by the ERC-funded [Hi-Audio project](https://hi-audio.imt.fr/).
 
 I am interested in using Machine Learning methods for analyzing and extracting insights from temporal sequence data. My particular testbed is musical signals.
 My PhD research looks at how inductive biases can be introduced into Transformers by using the positional encoding module to insert musically-relevant structural information.
