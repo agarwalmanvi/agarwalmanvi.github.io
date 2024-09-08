@@ -23,7 +23,7 @@ I am a PhD student working with [Gaël Richard](https://perso.telecom-paristech.
 I am interested in using Machine Learning methods for analyzing and extracting insights from temporal sequence data. My particular testbed is musical signals.
 My PhD research looks at how inductive biases can be introduced into Transformers by using the positional encoding module to insert musically-relevant structural information.
 
-Before starting my PhD, I worked as a Machine Learning Engineer at [Sentinels](https://www.sentinels.ai/about-us) in Groningen, The Netherlands, building solutions for the financial transaction processing industry. I completed my Masters in Artificial Intelligence with _cum laude_ distinction at the University of Groningen in 2020.
+Before starting my PhD, I worked as a Machine Learning Engineer at [Sentinels](https://nl.linkedin.com/company/sentinels-ai) in Groningen, The Netherlands, building solutions for the financial transaction processing industry. I completed my Masters in Artificial Intelligence with _cum laude_ distinction at the University of Groningen in 2020.
 I completed my Bachelor of Arts in History at [Presidency University](https://presiuniv.ac.in/web/). I spoke to The Telegraph India about my journey from the humanities to the sciences [here](https://epaper.telegraphindia.com/imageview/450659/1893693/undefined.html).
 
 The best way to reach me is to write me an email at `firstname dot lastname at telecom-paris dot fr`.
