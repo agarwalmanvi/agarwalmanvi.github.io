@@ -24,18 +24,11 @@ At this link, you can also find samples for the setting: train on 16 bars + test
 
 <div class="row">
     <div class="col">
-        <midi-player
-          src="/assets/projects/faststructurepe/3/40/melody_44.mid"
-          sound-font visualizer="#Vis1">
-        </midi-player>
+        {% include figure.liquid loading="eager" path="assets/projects/faststructurepe/40/melody_44.jpg" title="" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col">
-        <midi-player
-          src="/assets/projects/faststructurepe/3/40/pred_44.mid"
-          sound-font visualizer="#Vis2">
-        </midi-player>
+        {% include figure.liquid loading="eager" path="assets/projects/faststructurepe/40/pred_44.jpg" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
-<script src="https://cdn.jsdelivr.net/combine/npm/tone@14.7.58,npm/@magenta/music@1.23.1/es6/core.js,npm/focus-visible@5,npm/html-midi-player@1.4.0"></script>
-
+Thanks!
