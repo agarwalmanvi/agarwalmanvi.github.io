@@ -21,3 +21,21 @@ At this link, you can also find samples for the setting: train on 16 bars + test
 ## Method: X-StrIPE
 
 ### Chroma Similarity
+
+<div class="row">
+    <div class="col">
+        <midi-player
+          src="/assets/projects/faststructurepe/3/40/melody_44.mid"
+          sound-font visualizer="#Vis1">
+        </midi-player>
+    </div>
+    <div class="col">
+        <midi-player
+          src="/assets/projects/faststructurepe/3/40/pred_44.mid"
+          sound-font visualizer="#Vis2">
+        </midi-player>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/combine/npm/tone@14.7.58,npm/@magenta/music@1.23.1/es6/core.js,npm/focus-visible@5,npm/html-midi-player@1.4.0"></script>
+
