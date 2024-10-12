@@ -6,7 +6,7 @@ img:
 importance: 1
 ---
 
-This is the companion website to our ICASSP 2025 
+This is the companion website to our ICASSP 2025
 submission _F-StrIPE: Fast Structure-informed Positional Encoding for Music Generation_.
 
 We display samples for the setting: train on 16 bars + test on 16 bars.
