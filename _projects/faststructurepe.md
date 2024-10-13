@@ -11,11 +11,18 @@ submission _F-StrIPE: Fast Structure-informed Positional Encoding for Music Gene
 
 We display samples for the setting: train on 16 bars + test on 16 bars.
 We provide samples for four methods: X-StrIPE, SPE, F-StrIPE:C and F-StrIPE:SFF:C.
-For each method, we give the example with the best score on the four metrics we reported in the paper:
-Chroma Similarity (best = highest), Self-Similarity Matrix Distance (best = lowest), Grooving Similarity (best = highest) and Note Density Distance (best = lowest).
-We additionally also provide the melody-only MIDI file, so you can compare what the added accompaniment contributes to the song.
+For each method, we give the sample with the best score on the four metrics we reported in the paper:
+1. Chroma Similarity (best = highest)
+2. Self-Similarity Matrix Distance (best = lowest)
+3. Grooving Similarity (best = highest)
+4. Note Density Distance (best = lowest).
 
-⚠️ If you have problems playing the MIDI files using your browser, you can download the MIDI files here.
+We render each MIDI file into audio with `muspy`. We also plot the melody (in red) and accompaniment (in blue) tracks as
+a pianoroll and display them below with the audio. We additionally also provide the melody-only audio,
+so you can compare what the added accompaniment contributes to the song.
+
+▶️ You can download the MIDI files here.
+
 At this link, you can also find samples for the setting: train on 16 bars + test on 64 bars.
 
 ## Method: X-StrIPE
@@ -24,12 +31,8 @@ At this link, you can also find samples for the setting: train on 16 bars + test
 
 <div class="row">
     <div class="col mt-3 mt-md-0">
-        <div class="row">
-            Melody
-        </div>
-        <div class="row">
-            {% include audio.liquid path="assets/projects/faststructurepe/40/melody_44.wav" controls=true %}
-        </div>
+        Melody
+        {% include audio.liquid path="assets/projects/faststructurepe/40/melody_44.wav" controls=true %}
     </div>
     <div class="col mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/projects/faststructurepe/40/melody_44.jpg" title="" class="img-fluid rounded z-depth-1" %}
