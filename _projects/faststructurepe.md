@@ -35,17 +35,188 @@ At this link, you can also find samples for the setting: train on 16 bars + test
         {% include audio.liquid path="assets/projects/faststructurepe/40/melody_44.wav" controls=true %}
     </div>
     <div class="col mt-3 mt-md-0">
+        Melody + Accompaniment
         {% include figure.liquid loading="eager" path="assets/projects/faststructurepe/40/melody_44.jpg" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 <div class="row">
     <div class="col mt-3 mt-md-0">
+        Melody
         {% include audio.liquid path="assets/projects/faststructurepe/40/pred_44.wav" controls=true %}
     </div>
     <div class="col mt-3 mt-md-0">
+        Melody + Accompaniment
         {% include figure.liquid loading="eager" path="assets/projects/faststructurepe/40/pred_44.jpg" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 ### Self-Similarity Matrix Distance
+
+<div class="row">
+    <div class="col mt-3 mt-md-0">
+        Melody
+        {% include audio.liquid path="assets/projects/faststructurepe/40/melody_159.wav" controls=true %}
+    </div>
+    <div class="col mt-3 mt-md-0">
+        Melody + Accompaniment
+        {% include figure.liquid loading="eager" path="assets/projects/faststructurepe/40/melody_159.jpg" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col mt-3 mt-md-0">
+        Melody
+        {% include audio.liquid path="assets/projects/faststructurepe/40/pred_159.wav" controls=true %}
+    </div>
+    <div class="col mt-3 mt-md-0">
+        Melody + Accompaniment
+        {% include figure.liquid loading="eager" path="assets/projects/faststructurepe/40/pred_159.jpg" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+### Grooving Similarity
+
+<div class="row">
+    <div class="col mt-3 mt-md-0">
+        Melody
+        {% include audio.liquid path="assets/projects/faststructurepe/40/melody_172.wav" controls=true %}
+    </div>
+    <div class="col mt-3 mt-md-0">
+        Melody + Accompaniment
+        {% include figure.liquid loading="eager" path="assets/projects/faststructurepe/40/melody_172.jpg" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col mt-3 mt-md-0">
+        Melody
+        {% include audio.liquid path="assets/projects/faststructurepe/40/pred_172.wav" controls=true %}
+    </div>
+    <div class="col mt-3 mt-md-0">
+        Melody + Accompaniment
+        {% include figure.liquid loading="eager" path="assets/projects/faststructurepe/40/pred_172.jpg" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+### Note Density Distance
+
+<div class="row">
+    <div class="col mt-3 mt-md-0">
+        Melody
+        {% include audio.liquid path="assets/projects/faststructurepe/40/melody_317.wav" controls=true %}
+    </div>
+    <div class="col mt-3 mt-md-0">
+        Melody + Accompaniment
+        {% include figure.liquid loading="eager" path="assets/projects/faststructurepe/40/melody_317.jpg" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col mt-3 mt-md-0">
+        Melody
+        {% include audio.liquid path="assets/projects/faststructurepe/40/pred_317.wav" controls=true %}
+    </div>
+    <div class="col mt-3 mt-md-0">
+        Melody + Accompaniment
+        {% include figure.liquid loading="eager" path="assets/projects/faststructurepe/40/pred_317.jpg" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+## Method: SPE
+
+### Chroma Similarity
+
+<div class="row">
+    <div class="col mt-3 mt-md-0">
+        Melody
+        {% include audio.liquid path="assets/projects/faststructurepe/60/melody_50.wav" controls=true %}
+    </div>
+    <div class="col mt-3 mt-md-0">
+        Melody + Accompaniment
+        {% include figure.liquid loading="eager" path="assets/projects/faststructurepe/60/melody_50.jpg" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col mt-3 mt-md-0">
+        Melody
+        {% include audio.liquid path="assets/projects/faststructurepe/60/pred_50.wav" controls=true %}
+    </div>
+    <div class="col mt-3 mt-md-0">
+        Melody + Accompaniment
+        {% include figure.liquid loading="eager" path="assets/projects/faststructurepe/60/pred_50.jpg" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+### Self-Similarity Matrix Distance
+
+<div class="row">
+    <div class="col mt-3 mt-md-0">
+        Melody
+        {% include audio.liquid path="assets/projects/faststructurepe/60/melody_215.wav" controls=true %}
+    </div>
+    <div class="col mt-3 mt-md-0">
+        Melody + Accompaniment
+        {% include figure.liquid loading="eager" path="assets/projects/faststructurepe/60/melody_215.jpg" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col mt-3 mt-md-0">
+        Melody
+        {% include audio.liquid path="assets/projects/faststructurepe/60/pred_215.wav" controls=true %}
+    </div>
+    <div class="col mt-3 mt-md-0">
+        Melody + Accompaniment
+        {% include figure.liquid loading="eager" path="assets/projects/faststructurepe/60/pred_215.jpg" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+### Grooving Similarity
+
+<div class="row">
+    <div class="col mt-3 mt-md-0">
+        Melody
+        {% include audio.liquid path="assets/projects/faststructurepe/60/melody_227.wav" controls=true %}
+    </div>
+    <div class="col mt-3 mt-md-0">
+        Melody + Accompaniment
+        {% include figure.liquid loading="eager" path="assets/projects/faststructurepe/60/melody_227.jpg" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col mt-3 mt-md-0">
+        Melody
+        {% include audio.liquid path="assets/projects/faststructurepe/60/pred_227.wav" controls=true %}
+    </div>
+    <div class="col mt-3 mt-md-0">
+        Melody + Accompaniment
+        {% include figure.liquid loading="eager" path="assets/projects/faststructurepe/60/pred_227.jpg" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+### Note Density Distance
+
+<div class="row">
+    <div class="col mt-3 mt-md-0">
+        Melody
+        {% include audio.liquid path="assets/projects/faststructurepe/60/melody_240.wav" controls=true %}
+    </div>
+    <div class="col mt-3 mt-md-0">
+        Melody + Accompaniment
+        {% include figure.liquid loading="eager" path="assets/projects/faststructurepe/60/melody_240.jpg" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col mt-3 mt-md-0">
+        Melody
+        {% include audio.liquid path="assets/projects/faststructurepe/60/pred_240.wav" controls=true %}
+    </div>
+    <div class="col mt-3 mt-md-0">
+        Melody + Accompaniment
+        {% include figure.liquid loading="eager" path="assets/projects/faststructurepe/60/pred_240.jpg" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
