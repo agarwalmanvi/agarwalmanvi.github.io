@@ -24,7 +24,12 @@ At this link, you can also find samples for the setting: train on 16 bars + test
 
 <div class="row">
     <div class="col mt-3 mt-md-0">
-        {% include audio.liquid path="assets/projects/faststructurepe/40/melody_44.wav" controls=true %}
+        <div class="row">
+            Melody
+        </div>
+        <div class="row">
+            {% include audio.liquid path="assets/projects/faststructurepe/40/melody_44.wav" controls=true %}
+        </div>
     </div>
     <div class="col mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/projects/faststructurepe/40/melody_44.jpg" title="" class="img-fluid rounded z-depth-1" %}
