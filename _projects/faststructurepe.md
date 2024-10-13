@@ -21,9 +21,11 @@ We render each MIDI file into audio with `muspy`. We also plot the melody tracks
 a pianoroll and display them below with the audio. We additionally also provide the melody-only audio,
 so you can compare what the added accompaniment contributes to the song.
 
-▶️ You can download the MIDI files here.
+▶️ You can download the MIDI files
+[here](https://github.com/agarwalmanvi/agarwalmanvi.github.io/tree/master/assets/projects/faststructurepe).
 
-At this link, you can also find samples for the setting: train on 16 bars + test on 64 bars.
+At [this link](https://github.com/agarwalmanvi/agarwalmanvi.github.io/tree/master/assets/projects/faststructurepe/train16_test64),
+you can also find samples for the setting: train on 16 bars + test on 64 bars.
 
 ## Method: X-StrIPE
 
