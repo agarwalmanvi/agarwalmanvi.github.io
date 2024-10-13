@@ -23,10 +23,10 @@ At this link, you can also find samples for the setting: train on 16 bars + test
 ### Chroma Similarity
 
 <div class="row">
-    <div class="col-4 col-sm mt-3 mt-md-0">
+    <div class="col-12 col-md-4 mt-3 mt-md-0">
         {% include audio.liquid path="assets/projects/faststructurepe/40/melody_44.wav" controls=true %}
     </div>
-    <div class="col col-sm mt-3 mt-md-0">
+    <div class="col-12 col-md-4 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/projects/faststructurepe/40/melody_44.jpg" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
