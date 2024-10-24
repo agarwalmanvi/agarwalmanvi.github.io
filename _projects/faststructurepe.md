@@ -11,11 +11,14 @@ submission _F-StrIPE: Fast Structure-informed Positional Encoding for Music Gene
 
 We display samples for the setting: train on 16 bars + test on 16 bars.
 We provide samples for four methods: X-StrIPE, SPE, F-StrIPE:C and F-StrIPE:SFF:C.
+Among these methods, F-StrIPE:C and X-StrIPE are methods developed by us, while SPE and F-StrIPE:SFF:C are
+baselines (please refer to the paper for a full description).
+
 For each method, we give the sample with the best score on the four metrics we reported in the paper:
 1. Chroma Similarity (best = highest)
 2. Self-Similarity Matrix Distance (best = lowest)
 3. Grooving Similarity (best = highest)
-4. Note Density Distance (best = lowest).
+4. Note Density Distance (best = lowest)
 
 We render each MIDI file into audio with `muspy`. We also plot the melody tracks (in red) and the accompaniment track (in blue) as
 a pianoroll and display them below with the audio. We additionally also provide the melody-only audio,
@@ -26,6 +29,8 @@ so you can compare what the added accompaniment contributes to the song.
 
 At [this link](https://github.com/agarwalmanvi/agarwalmanvi.github.io/tree/master/assets/projects/faststructurepe/train16_test64),
 you can also find samples for the setting: train on 16 bars + test on 64 bars.
+
+⚠️ This demo webpage is best viewed on a desktop! You might need to zoom in a little to see the details of the pianoroll plots.
 
 ## Method: X-StrIPE
 
