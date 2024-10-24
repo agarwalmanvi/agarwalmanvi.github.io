@@ -32,9 +32,53 @@ you can also find samples for the setting: train on 16 bars + test on 64 bars.
 
 ⚠️ This demo webpage is best viewed on a desktop! You might need to zoom in a little to see the details of the pianoroll plots.
 
-## Method: X-StrIPE
+## Chroma Similarity
 
-### Chroma Similarity
+#### SPE
+
+<div class="row">
+    <div class="col mt-3 mt-md-0">
+        Melody
+        {% include audio.liquid path="assets/projects/faststructurepe/60/melody_50.wav" controls=true %}
+    </div>
+    <div class="col mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/projects/faststructurepe/60/melody_50.jpg" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col mt-3 mt-md-0">
+        Melody + Accompaniment
+        {% include audio.liquid path="assets/projects/faststructurepe/60/pred_50.wav" controls=true %}
+    </div>
+    <div class="col mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/projects/faststructurepe/60/pred_50.jpg" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+#### F-StrIPE:SFF:C
+
+<div class="row">
+    <div class="col mt-3 mt-md-0">
+        Melody
+        {% include audio.liquid path="assets/projects/faststructurepe/85/melody_292.wav" controls=true %}
+    </div>
+    <div class="col mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/projects/faststructurepe/85/melody_292.jpg" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col mt-3 mt-md-0">
+        Melody + Accompaniment
+        {% include audio.liquid path="assets/projects/faststructurepe/85/pred_292.wav" controls=true %}
+    </div>
+    <div class="col mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/projects/faststructurepe/85/pred_292.jpg" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+#### X-StrIPE
 
 <div class="row">
     <div class="col mt-3 mt-md-0">
@@ -56,7 +100,31 @@ you can also find samples for the setting: train on 16 bars + test on 64 bars.
     </div>
 </div>
 
-### Self-Similarity Matrix Distance
+#### F-StrIPE:C
+
+<div class="row">
+    <div class="col mt-3 mt-md-0">
+        Melody
+        {% include audio.liquid path="assets/projects/faststructurepe/102/melody_401.wav" controls=true %}
+    </div>
+    <div class="col mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/projects/faststructurepe/102/melody_401.jpg" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col mt-3 mt-md-0">
+        Melody + Accompaniment
+        {% include audio.liquid path="assets/projects/faststructurepe/102/pred_401.wav" controls=true %}
+    </div>
+    <div class="col mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/projects/faststructurepe/102/pred_401.jpg" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+## Method: X-StrIPE
+
+### Self-Similarity Matrix Distance X-StrIPE
 
 <div class="row">
     <div class="col mt-3 mt-md-0">
@@ -78,7 +146,7 @@ you can also find samples for the setting: train on 16 bars + test on 64 bars.
     </div>
 </div>
 
-### Grooving Similarity
+### Grooving Similarity X-StrIPE
 
 <div class="row">
     <div class="col mt-3 mt-md-0">
@@ -100,7 +168,7 @@ you can also find samples for the setting: train on 16 bars + test on 64 bars.
     </div>
 </div>
 
-### Note Density Distance
+### Note Density Distance X-StrIPE
 
 <div class="row">
     <div class="col mt-3 mt-md-0">
@@ -124,29 +192,9 @@ you can also find samples for the setting: train on 16 bars + test on 64 bars.
 
 ## Method: SPE
 
-### Chroma Similarity
 
-<div class="row">
-    <div class="col mt-3 mt-md-0">
-        Melody
-        {% include audio.liquid path="assets/projects/faststructurepe/60/melody_50.wav" controls=true %}
-    </div>
-    <div class="col mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/projects/faststructurepe/60/melody_50.jpg" title="" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
 
-<div class="row">
-    <div class="col mt-3 mt-md-0">
-        Melody + Accompaniment
-        {% include audio.liquid path="assets/projects/faststructurepe/60/pred_50.wav" controls=true %}
-    </div>
-    <div class="col mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/projects/faststructurepe/60/pred_50.jpg" title="" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-### Self-Similarity Matrix Distance
+### Self-Similarity Matrix Distance SPE
 
 <div class="row">
     <div class="col mt-3 mt-md-0">
@@ -168,7 +216,7 @@ you can also find samples for the setting: train on 16 bars + test on 64 bars.
     </div>
 </div>
 
-### Grooving Similarity
+### Grooving Similarity SPE
 
 <div class="row">
     <div class="col mt-3 mt-md-0">
@@ -190,7 +238,7 @@ you can also find samples for the setting: train on 16 bars + test on 64 bars.
     </div>
 </div>
 
-### Note Density Distance
+### Note Density Distance SPE
 
 <div class="row">
     <div class="col mt-3 mt-md-0">
@@ -215,29 +263,7 @@ you can also find samples for the setting: train on 16 bars + test on 64 bars.
 
 ## Method: F-StrIPE:C
 
-### Chroma Similarity
-
-<div class="row">
-    <div class="col mt-3 mt-md-0">
-        Melody
-        {% include audio.liquid path="assets/projects/faststructurepe/102/melody_401.wav" controls=true %}
-    </div>
-    <div class="col mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/projects/faststructurepe/102/melody_401.jpg" title="" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-<div class="row">
-    <div class="col mt-3 mt-md-0">
-        Melody + Accompaniment
-        {% include audio.liquid path="assets/projects/faststructurepe/102/pred_401.wav" controls=true %}
-    </div>
-    <div class="col mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/projects/faststructurepe/102/pred_401.jpg" title="" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-### Self-Similarity Matrix Distance
+### Self-Similarity Matrix Distance F-StrIPE:C
 
 <div class="row">
     <div class="col mt-3 mt-md-0">
@@ -259,7 +285,7 @@ you can also find samples for the setting: train on 16 bars + test on 64 bars.
     </div>
 </div>
 
-### Grooving Similarity
+### Grooving Similarity F-StrIPE:C
 
 <div class="row">
     <div class="col mt-3 mt-md-0">
@@ -281,7 +307,7 @@ you can also find samples for the setting: train on 16 bars + test on 64 bars.
     </div>
 </div>
 
-### Note Density Distance
+### Note Density Distance F-StrIPE:C
 
 <div class="row">
     <div class="col mt-3 mt-md-0">
@@ -306,29 +332,7 @@ you can also find samples for the setting: train on 16 bars + test on 64 bars.
 
 ## Method: F-StrIPE:SFF:C
 
-### Chroma Similarity
-
-<div class="row">
-    <div class="col mt-3 mt-md-0">
-        Melody
-        {% include audio.liquid path="assets/projects/faststructurepe/85/melody_292.wav" controls=true %}
-    </div>
-    <div class="col mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/projects/faststructurepe/85/melody_292.jpg" title="" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-<div class="row">
-    <div class="col mt-3 mt-md-0">
-        Melody + Accompaniment
-        {% include audio.liquid path="assets/projects/faststructurepe/85/pred_292.wav" controls=true %}
-    </div>
-    <div class="col mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/projects/faststructurepe/85/pred_292.jpg" title="" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-### Self-Similarity Matrix Distance
+### Self-Similarity Matrix Distance F-StrIPE:SFF:C
 
 <div class="row">
     <div class="col mt-3 mt-md-0">
@@ -350,7 +354,7 @@ you can also find samples for the setting: train on 16 bars + test on 64 bars.
     </div>
 </div>
 
-### Grooving Similarity
+### Grooving Similarity F-StrIPE:SFF:C
 
 <div class="row">
     <div class="col mt-3 mt-md-0">
@@ -372,7 +376,7 @@ you can also find samples for the setting: train on 16 bars + test on 64 bars.
     </div>
 </div>
 
-### Note Density Distance
+### Note Density Distance F-StrIPE:SFF:C
 
 <div class="row">
     <div class="col mt-3 mt-md-0">
