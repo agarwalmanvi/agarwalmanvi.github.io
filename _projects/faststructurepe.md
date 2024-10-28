@@ -20,7 +20,9 @@ For each method, we give the sample with the best score on the four metrics we r
 3. Note Density Distance (best = lowest)
 4. Self-Similarity Matrix Distance (best = lowest)
 
-We render each MIDI file into audio with `muspy`. We also plot the melody tracks (in red) and the accompaniment track (in blue) as
+We render each MIDI file into audio with `muspy`.
+Note that, the samples played for a given metric can be different for each method, but we preferred to do so to always play the best example for each method and to limit the number of audio examples on the demo page.
+We also plot the melody tracks (in red) and the accompaniment track (in blue) as
 a pianoroll and display them below with the audio. We additionally also provide the melody-only audio,
 so you can compare what the added accompaniment contributes to the song.
 
