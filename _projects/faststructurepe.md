@@ -6,6 +6,8 @@ img:
 importance: 1
 ---
 
+📔 Paper: [PDF](https://github.com/agarwalmanvi/agarwalmanvi.github.io/tree/master/assets/projects/faststructurepe/fstripe.pdf)
+
 This is the companion website to our ICASSP 2025
 submission _F-StrIPE: Fast Structure-informed Positional Encoding for Music Generation_.
 
