@@ -11,7 +11,7 @@ importance: 2
 [IEEE](https://doi.org/10.1109/ICASSP49660.2025.10888904)<br>
 🔗 DOI: 10.1109/ICASSP49660.2025.10888904
 
-This is the companion website to our ICASSP 2025 paper 
+This is the companion website to our ICASSP 2025 paper
 _F-StrIPE: Fast Structure-informed Positional Encoding for Music Generation_.
 
 We display samples for the setting: train on 16 bars + test on 16 bars.
@@ -20,6 +20,7 @@ Among these methods, F-StrIPE:C and X-StrIPE are methods developed by us, while 
 baselines (please refer to the paper for a full description).
 
 For each method, we give the sample with the best score on the four metrics we reported in the paper:
+
 1. Chroma Similarity (best = highest)
 2. Grooving Similarity (best = highest)
 3. Note Density Distance (best = lowest)
@@ -133,9 +134,7 @@ you can also find samples for the setting: train on 16 bars + test on 64 bars.
     </div>
 </div>
 
-
-----------------------------------------------------------------------------------------
-
+---
 
 ## Grooving Similarity
 
@@ -227,9 +226,7 @@ you can also find samples for the setting: train on 16 bars + test on 64 bars.
     </div>
 </div>
 
-
-----------------------------------------------------------------------------------------
-
+---
 
 ## Note Density Distance
 
@@ -256,7 +253,6 @@ you can also find samples for the setting: train on 16 bars + test on 64 bars.
 </div>
 
 #### F-StrIPE:SFF:C
-
 
 <div class="row">
     <div class="col mt-3 mt-md-0">
@@ -322,9 +318,7 @@ you can also find samples for the setting: train on 16 bars + test on 64 bars.
     </div>
 </div>
 
-
-----------------------------------------------------------------------------------------
-
+---
 
 ## Self-Similarity Matrix Distance
 
@@ -422,5 +416,3 @@ This is why the pianorolls of the predictions below do not contain any accompani
         {% include figure.liquid loading="eager" path="assets/projects/faststructurepe/102/pred_395.jpg" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-
-
