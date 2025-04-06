@@ -13,4 +13,4 @@ importance: 1
 📔 Paper: [PDF](https://github.com/agarwalmanvi/agarwalmanvi.github.io/tree/master/assets/projects/stripes/of_all_stripes.pdf) ;
 HAL and arXiV versions coming soon! <br><br>
 
-### Watch this space for a demo!
+#### Watch this space for a demo!
