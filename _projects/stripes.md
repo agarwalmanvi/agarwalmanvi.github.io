@@ -1,7 +1,16 @@
 ---
 layout: page
-title: different stripes, same animal
+title: Of All StrIPEs
 description:
 img:
-importance: 2
+importance: 1
 ---
+
+# Of All StrIPEs: Investigating Structure-informed Positional Encoding for Efficient Music Generation
+
+### 🚨 Hot off the press!
+
+📔 Paper: [PDF](https://github.com/agarwalmanvi/agarwalmanvi.github.io/tree/master/assets/projects/faststructurepe/of_all_stripes.pdf) ;
+HAL and arXiV versions coming soon! <br><br>
+
+### Watch this space for a demo!

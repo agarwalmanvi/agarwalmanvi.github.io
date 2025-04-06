@@ -3,13 +3,16 @@ layout: page
 title: fast structure-informed positional encoding for music generation
 description:
 img:
-importance: 1
+importance: 2
 ---
 
-📔 Paper: [PDF](https://github.com/agarwalmanvi/agarwalmanvi.github.io/tree/master/assets/projects/faststructurepe/fstripe.pdf)
+📔 Paper: [arXiV](https://arxiv.org/abs/2502.10491)
+[HAL](https://hal.science/hal-04935674)
+[IEEE](https://doi.org/10.1109/ICASSP49660.2025.10888904)<br>
+🔗 DOI: 10.1109/ICASSP49660.2025.10888904
 
-This is the companion website to our ICASSP 2025
-submission _F-StrIPE: Fast Structure-informed Positional Encoding for Music Generation_.
+This is the companion website to our ICASSP 2025 paper 
+_F-StrIPE: Fast Structure-informed Positional Encoding for Music Generation_.
 
 We display samples for the setting: train on 16 bars + test on 16 bars.
 We provide samples for four methods: X-StrIPE, SPE, F-StrIPE:C and F-StrIPE:SFF:C.
