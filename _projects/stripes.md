@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Of All StrIPEs
+title: Of All StrIPEs 🐯
 description:
 img:
 importance: 1
