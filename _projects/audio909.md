@@ -8,6 +8,8 @@ importance: 2
 
 ## In-domain samples
 
+#### Sample 1
+
 <div class="row">
     <div class="col mt-3 mt-md-0">
         Ground Truth
@@ -31,6 +33,7 @@ importance: 2
     </div>
 </div>
 
+#### Sample 2
 
 <div class="row">
     <div class="col mt-3 mt-md-0">
@@ -55,6 +58,7 @@ importance: 2
     </div>
 </div>
 
+#### Sample 3
 
 <div class="row">
     <div class="col mt-3 mt-md-0">
@@ -78,6 +82,8 @@ importance: 2
         {% include audio.liquid path="assets/projects/audio909/indomain/pred_random/1461.wav" controls=true %}
     </div>
 </div>
+
+#### Sample 4
 
 <div class="row">
     <div class="col mt-3 mt-md-0">
