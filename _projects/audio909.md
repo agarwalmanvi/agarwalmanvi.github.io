@@ -11,18 +11,93 @@ importance: 2
 <div class="row">
     <div class="col mt-3 mt-md-0">
         Ground Truth
-        {% include audio.liquid path="assets/projects/faststructurepe/60/melody_50.wav" controls=true %}
+        {% include audio.liquid path="assets/projects/audio909/indomain/gt/782_0565.wav" controls=true %}
     </div>
     <div class="col mt-3 mt-md-0">
         Model A
-        {% include audio.liquid path="assets/projects/faststructurepe/60/melody_50.wav" controls=true %}
+        {% include audio.liquid path="assets/projects/audio909/indomain/pred/782_0-5285_0565.wav" controls=true %}
     </div>
     <div class="col mt-3 mt-md-0">
         Model B
-        {% include audio.liquid path="assets/projects/faststructurepe/60/melody_50.wav" controls=true %}
+        {% include audio.liquid path="assets/projects/audio909/indomain/pred/783_0-5429_0565.wav" controls=true %}
     </div>
     <div class="col mt-3 mt-md-0">
         Model C
-        {% include audio.liquid path="assets/projects/faststructurepe/60/melody_50.wav" controls=true %}
+        {% include audio.liquid path="assets/projects/audio909/indomain/pred/784_0-5833_0565.wav" controls=true %}
+    </div>
+    <div class="col mt-3 mt-md-0">
+        Random
+        {% include audio.liquid path="assets/projects/audio909/indomain/pred_random/0565.wav" controls=true %}
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col mt-3 mt-md-0">
+        Ground Truth
+        {% include audio.liquid path="assets/projects/audio909/indomain/gt/782_1107.wav" controls=true %}
+    </div>
+    <div class="col mt-3 mt-md-0">
+        Model A
+        {% include audio.liquid path="assets/projects/audio909/indomain/pred/782_0-5115_1107.wav" controls=true %}
+    </div>
+    <div class="col mt-3 mt-md-0">
+        Model B
+        {% include audio.liquid path="assets/projects/audio909/indomain/pred/783_0-5437_1107.wav" controls=true %}
+    </div>
+    <div class="col mt-3 mt-md-0">
+        Model C
+        {% include audio.liquid path="assets/projects/audio909/indomain/pred/784_0-5571_1107.wav" controls=true %}
+    </div>
+    <div class="col mt-3 mt-md-0">
+        Random
+        {% include audio.liquid path="assets/projects/audio909/indomain/pred_random/1107.wav" controls=true %}
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col mt-3 mt-md-0">
+        Ground Truth
+        {% include audio.liquid path="assets/projects/audio909/indomain/gt/782_1461.wav" controls=true %}
+    </div>
+    <div class="col mt-3 mt-md-0">
+        Model A
+        {% include audio.liquid path="assets/projects/audio909/indomain/pred/782_0-521_1461.wav" controls=true %}
+    </div>
+    <div class="col mt-3 mt-md-0">
+        Model B
+        {% include audio.liquid path="assets/projects/audio909/indomain/pred/783_0-5109_1461.wav" controls=true %}
+    </div>
+    <div class="col mt-3 mt-md-0">
+        Model C
+        {% include audio.liquid path="assets/projects/audio909/indomain/pred/784_0-5604_1461.wav" controls=true %}
+    </div>
+    <div class="col mt-3 mt-md-0">
+        Random
+        {% include audio.liquid path="assets/projects/audio909/indomain/pred_random/1461.wav" controls=true %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col mt-3 mt-md-0">
+        Ground Truth
+        {% include audio.liquid path="assets/projects/audio909/indomain/gt/782_1636.wav" controls=true %}
+    </div>
+    <div class="col mt-3 mt-md-0">
+        Model A
+        {% include audio.liquid path="assets/projects/audio909/indomain/pred/782_0-5026_1636.wav" controls=true %}
+    </div>
+    <div class="col mt-3 mt-md-0">
+        Model B
+        {% include audio.liquid path="assets/projects/audio909/indomain/pred/783_0-5203_1636.wav" controls=true %}
+    </div>
+    <div class="col mt-3 mt-md-0">
+        Model C
+        {% include audio.liquid path="assets/projects/audio909/indomain/pred/784_0-5357_1636.wav" controls=true %}
+    </div>
+    <div class="col mt-3 mt-md-0">
+        Random
+        {% include audio.liquid path="assets/projects/audio909/indomain/pred_random/1636.wav" controls=true %}
     </div>
 </div>
