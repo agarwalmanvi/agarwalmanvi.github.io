@@ -18,6 +18,12 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
+<div class="row">
+  <div class="col-12 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/IMG_8217.jpeg" title="Manvi Agarwal" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+
 I am a PhD student working with [Gaël Richard](https://perso.telecom-paristech.fr/grichard/) and [Changhong Wang](https://changhongw.github.io/) at [Télécom Paris, Institut Polytechnique de Paris](https://www.ip-paris.fr/en), supported by the ERC-funded [Hi-Audio project](https://hi-audio.imt.fr/).
 
 I am interested in using Machine Learning methods for analyzing and extracting insights from temporal sequence data. My particular testbed is musical signals.
