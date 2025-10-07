@@ -16,6 +16,7 @@ importance: 1
 
 ###### Sample 1
 
+<div class="container">
 <div class="row">
     <div class="col mt-3 mt-md-0">
         Melody
@@ -44,4 +45,5 @@ importance: 1
         Chroma-based chords
         {% include audio.liquid path="assets/projects/stripes/mushra_demo/cs/time/chord_vecs_pred.wav" controls=true %}
     </div>
+</div>
 </div>
