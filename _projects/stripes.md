@@ -26,19 +26,19 @@ importance: 1
         {% include audio.liquid path="assets/projects/stripes/mushra_demo/cs/time/tgt.wav" controls=true %}
     </div>
     <div class="col mt-3 mt-md-0">
-        Time
+        Time (TIME)
         {% include audio.liquid path="assets/projects/stripes/mushra_demo/cs/time/time_pred.wav" controls=true %}
     </div>
     <div class="col mt-3 mt-md-0">
-        Repetition-based chords
+        Repetition-based chords (REP)
         {% include audio.liquid path="assets/projects/stripes/mushra_demo/cs/time/chord_pred.wav" controls=true %}
     </div>
     <div class="col mt-3 mt-md-0">
-        Key-normalized chords
+        Key-normalized chords (KEY)
         {% include audio.liquid path="assets/projects/stripes/mushra_demo/cs/time/chord_key_pred.wav" controls=true %}
     </div>
     <div class="col mt-3 mt-md-0">
-        Chroma-based chords
+        Chroma-based chords (BIN)
         {% include audio.liquid path="assets/projects/stripes/mushra_demo/cs/time/chord_vecs_pred.wav" controls=true %}
     </div>
 </div>
@@ -55,19 +55,19 @@ importance: 1
         {% include audio.liquid path="assets/projects/stripes/mushra_demo/ssmd/time/1_tgt.wav" controls=true %}
     </div>
     <div class="col mt-3 mt-md-0">
-        Time
+        Time (TIME)
         {% include audio.liquid path="assets/projects/stripes/mushra_demo/ssmd/time/time_1_pred.wav" controls=true %}
     </div>
     <div class="col mt-3 mt-md-0">
-        Repetition-based chords
+        Repetition-based chords (REP)
         {% include audio.liquid path="assets/projects/stripes/mushra_demo/ssmd/time/chord_1_pred.wav" controls=true %}
     </div>
     <div class="col mt-3 mt-md-0">
-        Key-normalized chords
+        Key-normalized chords (KEY)
         {% include audio.liquid path="assets/projects/stripes/mushra_demo/ssmd/time/chord_key_1_pred.wav" controls=true %}
     </div>
     <div class="col mt-3 mt-md-0">
-        Chroma-based chords
+        Chroma-based chords (BIN)
         {% include audio.liquid path="assets/projects/stripes/mushra_demo/ssmd/time/chord_vecs_1_pred.wav" controls=true %}
     </div>
 </div>
@@ -85,19 +85,19 @@ importance: 1
         {% include audio.liquid path="assets/projects/stripes/mushra_demo/cs/chord/1_tgt.wav" controls=true %}
     </div>
     <div class="col mt-3 mt-md-0">
-        Time
+        Time (TIME)
         {% include audio.liquid path="assets/projects/stripes/mushra_demo/cs/chord/time_1_pred.wav" controls=true %}
     </div>
     <div class="col mt-3 mt-md-0">
-        Repetition-based chords
+        Repetition-based chords (REP)
         {% include audio.liquid path="assets/projects/stripes/mushra_demo/cs/chord/chord_1_pred.wav" controls=true %}
     </div>
     <div class="col mt-3 mt-md-0">
-        Key-normalized chords
+        Key-normalized chords (KEY)
         {% include audio.liquid path="assets/projects/stripes/mushra_demo/cs/chord/chord_key_1_pred.wav" controls=true %}
     </div>
     <div class="col mt-3 mt-md-0">
-        Chroma-based chords
+        Chroma-based chords (BIN)
         {% include audio.liquid path="assets/projects/stripes/mushra_demo/cs/chord/chord_vecs_1_pred.wav" controls=true %}
     </div>
 </div>
@@ -115,19 +115,19 @@ importance: 1
         {% include audio.liquid path="assets/projects/stripes/mushra_demo/ndd/chord_vecs/1_tgt.wav" controls=true %}
     </div>
     <div class="col mt-3 mt-md-0">
-        Time
+        Time (TIME)
         {% include audio.liquid path="assets/projects/stripes/mushra_demo/ndd/chord_vecs/time_1_pred.wav" controls=true %}
     </div>
     <div class="col mt-3 mt-md-0">
-        Repetition-based chords
+        Repetition-based chords (REP)
         {% include audio.liquid path="assets/projects/stripes/mushra_demo/ndd/chord_vecs/chord_1_pred.wav" controls=true %}
     </div>
     <div class="col mt-3 mt-md-0">
-        Key-normalized chords
+        Key-normalized chords (KEY)
         {% include audio.liquid path="assets/projects/stripes/mushra_demo/ndd/chord_vecs/chord_key_1_pred.wav" controls=true %}
     </div>
     <div class="col mt-3 mt-md-0">
-        Chroma-based chords
+        Chroma-based chords (BIN)
         {% include audio.liquid path="assets/projects/stripes/mushra_demo/ndd/chord_vecs/chord_vecs_1_pred.wav" controls=true %}
     </div>
 </div>
@@ -144,19 +144,19 @@ importance: 1
         {% include audio.liquid path="assets/projects/stripes/mushra_demo/cs/chord_vecs/tgt.wav" controls=true %}
     </div>
     <div class="col mt-3 mt-md-0">
-        Time
+        Time (TIME)
         {% include audio.liquid path="assets/projects/stripes/mushra_demo/cs/chord_vecs/time_pred.wav" controls=true %}
     </div>
     <div class="col mt-3 mt-md-0">
-        Repetition-based chords
+        Repetition-based chords (REP)
         {% include audio.liquid path="assets/projects/stripes/mushra_demo/cs/chord_vecs/chord_pred.wav" controls=true %}
     </div>
     <div class="col mt-3 mt-md-0">
-        Key-normalized chords
+        Key-normalized chords (KEY)
         {% include audio.liquid path="assets/projects/stripes/mushra_demo/cs/chord_vecs/chord_key_pred.wav" controls=true %}
     </div>
     <div class="col mt-3 mt-md-0">
-        Chroma-based chords
+        Chroma-based chords (BIN)
         {% include audio.liquid path="assets/projects/stripes/mushra_demo/cs/chord_vecs/chord_vecs_pred.wav" controls=true %}
     </div>
 </div>
@@ -173,19 +173,19 @@ importance: 1
         {% include audio.liquid path="assets/projects/stripes/mushra_demo/gs/time/tgt.wav" controls=true %}
     </div>
     <div class="col mt-3 mt-md-0">
-        Time
+        Time (TIME)
         {% include audio.liquid path="assets/projects/stripes/mushra_demo/gs/time/time_pred.wav" controls=true %}
     </div>
     <div class="col mt-3 mt-md-0">
-        Repetition-based chords
+        Repetition-based chords (REP)
         {% include audio.liquid path="assets/projects/stripes/mushra_demo/gs/time/chord_pred.wav" controls=true %}
     </div>
     <div class="col mt-3 mt-md-0">
-        Key-normalized chords
+        Key-normalized chords (KEY)
         {% include audio.liquid path="assets/projects/stripes/mushra_demo/gs/time/chord_key_pred.wav" controls=true %}
     </div>
     <div class="col mt-3 mt-md-0">
-        Chroma-based chords
+        Chroma-based chords (BIN)
         {% include audio.liquid path="assets/projects/stripes/mushra_demo/gs/time/chord_vecs_pred.wav" controls=true %}
     </div>
 </div>
@@ -202,19 +202,19 @@ importance: 1
         {% include audio.liquid path="assets/projects/stripes/mushra_demo/gs/chord/tgt.wav" controls=true %}
     </div>
     <div class="col mt-3 mt-md-0">
-        Time
+        Time (TIME)
         {% include audio.liquid path="assets/projects/stripes/mushra_demo/gs/chord/time_pred.wav" controls=true %}
     </div>
     <div class="col mt-3 mt-md-0">
-        Repetition-based chords
+        Repetition-based chords (REP)
         {% include audio.liquid path="assets/projects/stripes/mushra_demo/gs/chord/chord_pred.wav" controls=true %}
     </div>
     <div class="col mt-3 mt-md-0">
-        Key-normalized chords
+        Key-normalized chords (KEY)
         {% include audio.liquid path="assets/projects/stripes/mushra_demo/gs/chord/chord_key_pred.wav" controls=true %}
     </div>
     <div class="col mt-3 mt-md-0">
-        Chroma-based chords
+        Chroma-based chords (BIN)
         {% include audio.liquid path="assets/projects/stripes/mushra_demo/gs/chord/chord_vecs_pred.wav" controls=true %}
     </div>
 </div>
@@ -233,19 +233,19 @@ importance: 1
         {% include audio.liquid path="assets/projects/stripes/mushra_demo/ssmd/time/tgt.wav" controls=true %}
     </div>
     <div class="col mt-3 mt-md-0">
-        Time
+        Time (TIME)
         {% include audio.liquid path="assets/projects/stripes/mushra_demo/ssmd/time/time_pred.wav" controls=true %}
     </div>
     <div class="col mt-3 mt-md-0">
-        Repetition-based chords
+        Repetition-based chords (REP)
         {% include audio.liquid path="assets/projects/stripes/mushra_demo/ssmd/time/chord_pred.wav" controls=true %}
     </div>
     <div class="col mt-3 mt-md-0">
-        Key-normalized chords
+        Key-normalized chords (KEY)
         {% include audio.liquid path="assets/projects/stripes/mushra_demo/ssmd/time/chord_key_pred.wav" controls=true %}
     </div>
     <div class="col mt-3 mt-md-0">
-        Chroma-based chords
+        Chroma-based chords (BIN)
         {% include audio.liquid path="assets/projects/stripes/mushra_demo/ssmd/time/chord_vecs_pred.wav" controls=true %}
     </div>
 </div>
@@ -265,19 +265,19 @@ importance: 1
         {% include audio.liquid path="assets/projects/stripes/mushra_demo/ndd/chord/tgt.wav" controls=true %}
     </div>
     <div class="col mt-3 mt-md-0">
-        Time
+        Time (TIME)
         {% include audio.liquid path="assets/projects/stripes/mushra_demo/ndd/chord/time_pred.wav" controls=true %}
     </div>
     <div class="col mt-3 mt-md-0">
-        Repetition-based chords
+        Repetition-based chords (REP)
         {% include audio.liquid path="assets/projects/stripes/mushra_demo/ndd/chord/chord_pred.wav" controls=true %}
     </div>
     <div class="col mt-3 mt-md-0">
-        Key-normalized chords
+        Key-normalized chords (KEY)
         {% include audio.liquid path="assets/projects/stripes/mushra_demo/ndd/chord/chord_key_pred.wav" controls=true %}
     </div>
     <div class="col mt-3 mt-md-0">
-        Chroma-based chords
+        Chroma-based chords (BIN)
         {% include audio.liquid path="assets/projects/stripes/mushra_demo/ndd/chord/chord_vecs_pred.wav" controls=true %}
     </div>
 </div>
@@ -295,19 +295,19 @@ importance: 1
         {% include audio.liquid path="assets/projects/stripes/mushra_demo/ndd/chord_key/tgt.wav" controls=true %}
     </div>
     <div class="col mt-3 mt-md-0">
-        Time
+        Time (TIME)
         {% include audio.liquid path="assets/projects/stripes/mushra_demo/ndd/chord_key/time_pred.wav" controls=true %}
     </div>
     <div class="col mt-3 mt-md-0">
-        Repetition-based chords
+        Repetition-based chords (REP)
         {% include audio.liquid path="assets/projects/stripes/mushra_demo/ndd/chord_key/chord_pred.wav" controls=true %}
     </div>
     <div class="col mt-3 mt-md-0">
-        Key-normalized chords
+        Key-normalized chords (KEY)
         {% include audio.liquid path="assets/projects/stripes/mushra_demo/ndd/chord_key/chord_key_pred.wav" controls=true %}
     </div>
     <div class="col mt-3 mt-md-0">
-        Chroma-based chords
+        Chroma-based chords (BIN)
         {% include audio.liquid path="assets/projects/stripes/mushra_demo/ndd/chord_key/chord_vecs_pred.wav" controls=true %}
     </div>
 </div>
