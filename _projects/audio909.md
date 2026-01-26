@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Audio909
+title: The Audio909 Dataset
 description:
 img:
 importance: 1
@@ -8,7 +8,7 @@ importance: 1
 
 ## Structure-informed Music Generation with Tokenized Audio
 
-### Excerpts from the Audio909 dataset
+### Sample 1
 
 <div class="row">
     <div class="col mt-3 mt-md-0">
@@ -29,6 +29,106 @@ importance: 1
     </div>
     <div class="col mt-3 mt-md-0">
         AB
-        {% include audio.liquid path="assets/projects/audio909/dataset_samples/001_MBA_.wav" controls=true %}
+        {% include audio.liquid path="assets/projects/audio909/dataset_samples/001_MBA_ABHorizontal.wav" controls=true %}
+    </div>
+</div>
+
+### Sample 2
+
+<div class="row">
+    <div class="col mt-3 mt-md-0">
+        Back
+        {% include audio.liquid path="assets/projects/audio909/dataset_samples/002_MBA_Back.wav" controls=true %}
+    </div>
+    <div class="col mt-3 mt-md-0">
+        Mono
+        {% include audio.liquid path="assets/projects/audio909/dataset_samples/002_MBA_Mono.wav" controls=true %}
+    </div>
+    <div class="col mt-3 mt-md-0">
+        Far
+        {% include audio.liquid path="assets/projects/audio909/dataset_samples/002_MBA_Far.wav" controls=true %}
+    </div>
+    <div class="col mt-3 mt-md-0">
+        XY
+        {% include audio.liquid path="assets/projects/audio909/dataset_samples/002_MBA_XY.wav" controls=true %}
+    </div>
+    <div class="col mt-3 mt-md-0">
+        AB
+        {% include audio.liquid path="assets/projects/audio909/dataset_samples/002_MBA_ABHorizontal.wav" controls=true %}
+    </div>
+</div>
+
+### Sample 3
+
+<div class="row">
+    <div class="col mt-3 mt-md-0">
+        Back
+        {% include audio.liquid path="assets/projects/audio909/dataset_samples/003_MBA_Back.wav" controls=true %}
+    </div>
+    <div class="col mt-3 mt-md-0">
+        Mono
+        {% include audio.liquid path="assets/projects/audio909/dataset_samples/003_MBA_Mono.wav" controls=true %}
+    </div>
+    <div class="col mt-3 mt-md-0">
+        Far
+        {% include audio.liquid path="assets/projects/audio909/dataset_samples/003_MBA_Far.wav" controls=true %}
+    </div>
+    <div class="col mt-3 mt-md-0">
+        XY
+        {% include audio.liquid path="assets/projects/audio909/dataset_samples/003_MBA_XY.wav" controls=true %}
+    </div>
+    <div class="col mt-3 mt-md-0">
+        AB
+        {% include audio.liquid path="assets/projects/audio909/dataset_samples/003_MBA_ABHorizontal.wav" controls=true %}
+    </div>
+</div>
+
+### Sample 4
+
+<div class="row">
+    <div class="col mt-3 mt-md-0">
+        Back
+        {% include audio.liquid path="assets/projects/audio909/dataset_samples/004_MBA_Back.wav" controls=true %}
+    </div>
+    <div class="col mt-3 mt-md-0">
+        Mono
+        {% include audio.liquid path="assets/projects/audio909/dataset_samples/004_MBA_Mono.wav" controls=true %}
+    </div>
+    <div class="col mt-3 mt-md-0">
+        Far
+        {% include audio.liquid path="assets/projects/audio909/dataset_samples/004_MBA_Far.wav" controls=true %}
+    </div>
+    <div class="col mt-3 mt-md-0">
+        XY
+        {% include audio.liquid path="assets/projects/audio909/dataset_samples/004_MBA_XY.wav" controls=true %}
+    </div>
+    <div class="col mt-3 mt-md-0">
+        AB
+        {% include audio.liquid path="assets/projects/audio909/dataset_samples/004_MBA_ABHorizontal.wav" controls=true %}
+    </div>
+</div>
+
+### Sample 5
+
+<div class="row">
+    <div class="col mt-3 mt-md-0">
+        Back
+        {% include audio.liquid path="assets/projects/audio909/dataset_samples/005_MBA_Back.wav" controls=true %}
+    </div>
+    <div class="col mt-3 mt-md-0">
+        Mono
+        {% include audio.liquid path="assets/projects/audio909/dataset_samples/005_MBA_Mono.wav" controls=true %}
+    </div>
+    <div class="col mt-3 mt-md-0">
+        Far
+        {% include audio.liquid path="assets/projects/audio909/dataset_samples/005_MBA_Far.wav" controls=true %}
+    </div>
+    <div class="col mt-3 mt-md-0">
+        XY
+        {% include audio.liquid path="assets/projects/audio909/dataset_samples/005_MBA_XY.wav" controls=true %}
+    </div>
+    <div class="col mt-3 mt-md-0">
+        AB
+        {% include audio.liquid path="assets/projects/audio909/dataset_samples/005_MBA_ABHorizontal.wav" controls=true %}
     </div>
 </div>
