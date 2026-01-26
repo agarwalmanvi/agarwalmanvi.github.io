@@ -8,7 +8,11 @@ importance: 1
 
 ## Structure-informed Music Generation with Tokenized Audio
 
-### Sample 1
+### Dataset excerpts
+
+Below, we provide 15-second excerpts from a few samples of our dataset, captured using different receiver configurations.
+
+#### Sample 1
 
 <div class="row">
     <div class="col mt-3 mt-md-0">
@@ -33,7 +37,7 @@ importance: 1
     </div>
 </div>
 
-### Sample 2
+#### Sample 2
 
 <div class="row">
     <div class="col mt-3 mt-md-0">
@@ -58,7 +62,7 @@ importance: 1
     </div>
 </div>
 
-### Sample 3
+#### Sample 3
 
 <div class="row">
     <div class="col mt-3 mt-md-0">
@@ -83,7 +87,7 @@ importance: 1
     </div>
 </div>
 
-### Sample 4
+#### Sample 4
 
 <div class="row">
     <div class="col mt-3 mt-md-0">
@@ -108,7 +112,7 @@ importance: 1
     </div>
 </div>
 
-### Sample 5
+#### Sample 5
 
 <div class="row">
     <div class="col mt-3 mt-md-0">
@@ -132,3 +136,7 @@ importance: 1
         {% include audio.liquid path="assets/projects/audio909/dataset_samples/005_MBA_ABHorizontal.wav" controls=true %}
     </div>
 </div>
+
+### Empirical validation demo
+
+Coming soon.
