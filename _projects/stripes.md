@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Of All StrIPEs 🐯
+title: 🐯 of all stripes 🐯
 description:
 img:
 importance: 1
